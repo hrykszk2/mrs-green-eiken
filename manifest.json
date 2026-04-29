@@ -1,0 +1,22 @@
+{
+  "name": "Mrs. GREEN EIKEN",
+  "short_name": "MrsEIKEN",
+  "description": "Mrs. GREEN APPLEテーマの英検2級対策アプリ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f0fdf4",
+  "theme_color": "#00c853",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

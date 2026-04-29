@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mrs. GREEN EIKEN</title>
+    <meta name="description" content="Mrs. GREEN APPLEテーマの英検2級対策アプリ">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4caf50">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Home Screen -->
+        <section id="home-screen" class="screen active">
+            <div class="header">
+                <h1>Mrs. GREEN<br>EIKEN <span class="grade-badge">Grade 2</span></h1>
+                <p class="subtitle">Learn English with your favorite music</p>
+            </div>
+            <div class="menu-buttons">
+                <button id="btn-start-normal" class="primary-btn">
+                    <i class="fa-solid fa-play"></i> 10問スタート
+                </button>
+                <button id="btn-start-vocab" class="secondary-btn">
+                    <i class="fa-solid fa-book-open"></i> 単語帳から出題
+                </button>
+                <button id="btn-open-vocab" class="secondary-btn">
+                    <i class="fa-solid fa-list"></i> 単語帳を見る
+                </button>
+            </div>
+            <div class="logo-area">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen">
+            <div class="top-bar">
+                <button class="back-btn btn-home"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="progress-text">Question <span id="current-q-num">1</span>/10</div>
+            </div>
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div class="question-container">
+                <div id="question-type" class="badge"></div>
+                <p id="question-text"></p>
+            </div>
+            <div class="options-container" id="options-container">
+                <!-- Options injected by JS -->
+            </div>
+            <button id="btn-answer" class="primary-btn disabled" disabled>回答する</button>
+        </section>
+
+        <!-- Explanation Screen -->
+        <section id="explanation-screen" class="screen">
+            <div class="top-bar">
+                <div class="result-title" id="result-title"></div>
+            </div>
+            <div class="explanation-container">
+                <div class="original-text-box">
+                    <h3>完成した文:</h3>
+                    <p id="full-sentence-text"></p>
+                    <button id="btn-speak" class="icon-btn"><i class="fa-solid fa-volume-high"></i></button>
+                </div>
+                <div class="translation-box">
+                    <h3>日本語訳:</h3>
+                    <p id="translation-text"></p>
+                </div>
+                <div class="detail-box">
+                    <h3>解説:</h3>
+                    <p id="explanation-text"></p>
+                </div>
+            </div>
+            <div class="action-buttons">
+                <button id="btn-save-vocab" class="secondary-btn">
+                    <i class="fa-solid fa-bookmark"></i> 単語帳に保存
+                </button>
+                <button id="btn-next" class="primary-btn">次の問題へ <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Result Screen -->
+        <section id="result-screen" class="screen">
+            <div class="result-header">
+                <h2>Result</h2>
+                <div class="score-circle">
+                    <span id="final-score">0</span><span class="total">/10</span>
+                </div>
+                <p id="result-message"></p>
+            </div>
+            <div class="action-buttons">
+                <button class="primary-btn btn-home">ホームに戻る</button>
+            </div>
+        </section>
+
+        <!-- Vocabulary Book Screen -->
+        <section id="vocab-screen" class="screen">
+            <div class="top-bar">
+                <button class="back-btn btn-home"><i class="fa-solid fa-arrow-left"></i></button>
+                <h2>単語帳</h2>
+            </div>
+            <div class="vocab-list-container" id="vocab-list">
+                <!-- Vocab items injected by JS -->
+            </div>
+            <div class="empty-state" id="vocab-empty-state" style="display: none;">
+                <i class="fa-solid fa-folder-open"></i>
+                <p>保存された問題がありません。</p>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').then(registration => {
+                    console.log('SW registered: ', registration);
+                }).catch(registrationError => {
+                    console.log('SW registration failed: ', registrationError);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
