@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mrs-green-eiken-v2';
+const CACHE_NAME = 'mrs-green-eiken-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

@@ -15,16 +15,16 @@ const questionBank = [
   },
   {
     "id": 2,
-    "type": "sentence",
-    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he ordered new (    ) for the home studio.",
     "options": [
+      "equipment",
       "employment",
-      "environment",
       "experiment",
-      "equipment"
+      "environment"
     ],
-    "answer": 3,
-    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "answer": 0,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼は自宅スタジオのために新しい機材を注文しました。",
     "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
   },
   {
@@ -34,10 +34,10 @@ const questionBank = [
     "options": [
       "messenger",
       "manager",
-      "passenger",
-      "stranger"
+      "stranger",
+      "passenger"
     ],
-    "answer": 2,
+    "answer": 3,
     "translation": "藤澤涼架は電車の乗客として眠ってしまいました。",
     "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
   },
@@ -46,41 +46,41 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
     "options": [
+      "description",
       "decision",
       "destination",
-      "department",
-      "description"
+      "department"
     ],
-    "answer": 1,
+    "answer": 2,
     "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
     "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
   },
   {
     "id": 5,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they listens to a wide (    ) of music genres.",
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
     "options": [
-      "safety",
       "variety",
+      "safety",
       "society",
       "anxiety"
     ],
-    "answer": 1,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは幅広いジャンルの音楽を聴きます。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
     "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
   },
   {
     "id": 6,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, One (    ) of living in Tokyo are that they can easily go to many concerts.",
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
     "options": [
-      "advance",
-      "advice",
       "adventure",
+      "advice",
+      "advance",
       "advantage"
     ],
     "answer": 3,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、東京に住む一つの利点は、彼らがたくさんのコンサートに簡単に行けることです。",
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
     "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
   },
   {
@@ -88,8 +88,8 @@ const questionBank = [
     "type": "sentence",
     "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
     "options": [
-      "opposition",
       "opinion",
+      "opposition",
       "operation",
       "opportunity"
     ],
@@ -99,16 +99,16 @@ const questionBank = [
   },
   {
     "id": 8,
-    "type": "sentence",
-    "text": "The (    ) cheered loudly when Hiroto Wakai appeared on stage.",
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The (    ) cheered loudly when he appeared on stage.",
     "options": [
       "attendance",
-      "audience",
       "absence",
+      "audience",
       "appearance"
     ],
-    "answer": 1,
-    "translation": "若井滉斗がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "answer": 2,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼がステージに現れた時、観客は大きな声で歓声を上げました。",
     "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
   },
   {
@@ -117,9 +117,9 @@ const questionBank = [
     "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
     "options": [
       "neighborhood",
+      "childhood",
       "livelihood",
-      "brotherhood",
-      "childhood"
+      "brotherhood"
     ],
     "answer": 0,
     "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
@@ -127,16 +127,16 @@ const questionBank = [
   },
   {
     "id": 10,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they felt a certain (    ) of nervousness before the live broadcast.",
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
     "options": [
-      "agree",
+      "degree",
       "decree",
-      "disagree",
-      "degree"
+      "agree",
+      "disagree"
     ],
-    "answer": 3,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは生放送の前に、ある程度の緊張を感じました。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
     "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
   },
   {
@@ -144,12 +144,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
     "options": [
-      "feature",
+      "temperature",
       "creature",
-      "literature",
-      "temperature"
+      "feature",
+      "literature"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
     "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
   },
@@ -158,12 +158,12 @@ const questionBank = [
     "type": "sentence",
     "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
     "options": [
-      "screen",
       "science",
-      "scene",
-      "scenery"
+      "scenery",
+      "screen",
+      "scene"
     ],
-    "answer": 3,
+    "answer": 1,
     "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
     "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
   },
@@ -172,12 +172,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Motoki Ohmori eats healthy food to prevent (    ).",
     "options": [
-      "desire",
-      "disease",
       "decrease",
-      "deceive"
+      "deceive",
+      "desire",
+      "disease"
     ],
-    "answer": 1,
+    "answer": 3,
     "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
     "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
   },
@@ -186,12 +186,12 @@ const questionBank = [
     "type": "sentence",
     "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
     "options": [
-      "custom",
       "customer",
+      "castle",
       "costume",
-      "castle"
+      "custom"
     ],
-    "answer": 0,
+    "answer": 3,
     "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
     "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
   },
@@ -200,12 +200,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Ryoka Fujisawa spent a large (    ) of money on new clothes.",
     "options": [
-      "account",
+      "amount",
       "announce",
       "allowance",
-      "amount"
+      "account"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "藤澤涼架は新しい服に多額のお金を使いました。",
     "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
   },
@@ -214,12 +214,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
     "options": [
-      "achieve",
-      "believe",
       "deceive",
-      "receive"
+      "achieve",
+      "receive",
+      "believe"
     ],
-    "answer": 0,
+    "answer": 1,
     "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
     "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
   },
@@ -228,27 +228,27 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE never (    )s about being too busy.",
     "options": [
-      "complain",
-      "remain",
+      "contain",
       "explain",
-      "contain"
+      "remain",
+      "complain"
     ],
-    "answer": 0,
+    "answer": 3,
     "translation": "ミセスグリーンアップルは忙しすぎることについて決して不平を言いません。",
     "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
   },
   {
     "id": 18,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they's smile always (    )s the fans.",
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE's smile always (    )s the fans.",
     "options": [
-      "encourage",
       "discourage",
-      "enlarge",
-      "engage"
+      "engage",
+      "encourage",
+      "enlarge"
     ],
-    "answer": 0,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らの笑顔はいつもファンを勇気づけます。",
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーの笑顔はいつもファンを勇気づけます。",
     "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
   },
   {
@@ -256,12 +256,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Motoki Ohmori practices every day to (    ) guitar skills.",
     "options": [
-      "improve",
-      "remove",
       "approve",
-      "prove"
+      "prove",
+      "remove",
+      "improve"
     ],
-    "answer": 0,
+    "answer": 3,
     "translation": "大森元貴はギターのスキルを向上させるために毎日練習しています。",
     "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
   },
@@ -270,12 +270,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
     "options": [
+      "digest",
       "suggest",
-      "request",
       "invest",
-      "digest"
+      "request"
     ],
-    "answer": 0,
+    "answer": 1,
     "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
     "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
   },
@@ -284,27 +284,27 @@ const questionBank = [
     "type": "sentence",
     "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
     "options": [
-      "reduce",
-      "relax",
       "replace",
-      "place"
+      "place",
+      "reduce",
+      "relax"
     ],
-    "answer": 2,
+    "answer": 0,
     "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
     "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
   },
   {
     "id": 22,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they was easily (    )d by fans while shopping at the mall.",
     "options": [
-      "realize",
-      "organize",
+      "memorize",
       "recognize",
-      "memorize"
+      "realize",
+      "organize"
     ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはショッピングモールで買い物中にファンにすぐ気付かれました。",
     "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
   },
   {
@@ -312,12 +312,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE will (    ) in a charity marathon next month.",
     "options": [
-      "hesitate",
-      "participate",
       "anticipate",
-      "calculate"
+      "calculate",
+      "participate",
+      "hesitate"
     ],
-    "answer": 1,
+    "answer": 2,
     "translation": "ミセスグリーンアップルは来月チャリティーマラソンに参加します。",
     "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
   },
@@ -326,12 +326,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
     "options": [
+      "inquire",
       "retire",
       "require",
-      "acquire",
-      "inquire"
+      "acquire"
     ],
-    "answer": 1,
+    "answer": 2,
     "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
     "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
   },
@@ -341,26 +341,26 @@ const questionBank = [
     "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he doesn't like to (    ) themselves with others.",
     "options": [
       "repair",
-      "declare",
       "compare",
+      "declare",
       "prepare"
     ],
-    "answer": 2,
+    "answer": 1,
     "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は自分自身を他人と比較するのが好きではありません。",
     "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
   },
   {
     "id": 26,
-    "type": "sentence",
-    "text": "Hiroto Wakai wants to (    ) fans with unforgettable memories.",
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he wants to (    ) fans with unforgettable memories.",
     "options": [
-      "divide",
+      "decide",
       "guide",
-      "provide",
-      "decide"
+      "divide",
+      "provide"
     ],
-    "answer": 2,
-    "translation": "若井滉斗はファンに忘れられない思い出を提供したいと思っています。",
+    "answer": 3,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はファンに忘れられない思い出を提供したいと思っています。",
     "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
   },
   {
@@ -369,54 +369,54 @@ const questionBank = [
     "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
     "options": [
       "rely",
-      "reply",
       "apply",
-      "supply"
+      "supply",
+      "reply"
     ],
     "answer": 0,
     "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
-    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事をする）、apply（適用する・申し込む）、supply（供給する）。"
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
   },
   {
     "id": 28,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
     "options": [
-      "afford",
       "effort",
+      "reward",
       "record",
-      "reward"
+      "afford"
     ],
-    "answer": 0,
+    "answer": 3,
     "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
     "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
   },
   {
     "id": 29,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they wore a warm coat to (    ) catching a cold.",
     "options": [
       "prevent",
       "invent",
-      "event",
-      "present"
+      "present",
+      "event"
     ],
     "answer": 0,
-    "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは風邪をひくのを防ぐために暖かいコートを着ました。",
     "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
   },
   {
     "id": 30,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, A simple meal of rice and miso soup are enough to (    ) they.",
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
     "options": [
-      "terrify",
-      "modify",
       "satisfy",
-      "qualify"
+      "terrify",
+      "qualify",
+      "modify"
     ],
-    "answer": 2,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、ご飯と味噌汁のシンプルな食事で彼らを満足させるのに十分です。",
+    "answer": 0,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
     "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
   },
   {
@@ -438,12 +438,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Living near the station is very (    ) for Hiroto Wakai.",
     "options": [
-      "current",
-      "excellent",
+      "convenient",
       "confident",
-      "convenient"
+      "excellent",
+      "current"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
     "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
   },
@@ -452,12 +452,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Ryoka Fujisawa has been very (    ) since moving out of the parents' house.",
     "options": [
-      "dependent",
+      "independent",
       "confident",
-      "silent",
-      "independent"
+      "dependent",
+      "silent"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "藤澤涼架は実家を出て以来、とても自立しています。",
     "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
   },
@@ -466,12 +466,12 @@ const questionBank = [
     "type": "conversation",
     "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they likes to cook dishes from (    ) countries.",
     "options": [
-      "serious",
-      "obvious",
+      "various",
       "curious",
-      "various"
+      "serious",
+      "obvious"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは様々な国の料理を作るのが好きです。",
     "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
   },
@@ -480,12 +480,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
     "options": [
-      "curious",
-      "serious",
       "nervous",
-      "furious"
+      "furious",
+      "serious",
+      "curious"
     ],
-    "answer": 0,
+    "answer": 3,
     "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
     "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
   },
@@ -495,11 +495,11 @@ const questionBank = [
     "text": "The members of Mrs. GREEN APPLE were not (    ) of the time and stayed up late playing games.",
     "options": [
       "awake",
+      "away",
       "aware",
-      "alike",
-      "away"
+      "alike"
     ],
-    "answer": 1,
+    "answer": 2,
     "translation": "ミセスグリーンアップルのメンバーは時間に気付かず、夜遅くまでゲームをして起きていました。",
     "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
   },
@@ -508,12 +508,12 @@ const questionBank = [
     "type": "sentence",
     "text": "That is (    ) what Motoki Ohmori wanted to say.",
     "options": [
-      "hardly",
+      "mostly",
       "nearly",
-      "exactly",
-      "mostly"
+      "hardly",
+      "exactly"
     ],
-    "answer": 2,
+    "answer": 3,
     "translation": "それはまさに大森元貴が言いたかったことです。",
     "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
   },
@@ -522,8 +522,8 @@ const questionBank = [
     "type": "sentence",
     "text": "Hiroto Wakai (    ) visits that small cafe in the afternoon.",
     "options": [
-      "suddenly",
       "recently",
+      "suddenly",
       "rarely",
       "frequently"
     ],
@@ -537,26 +537,26 @@ const questionBank = [
     "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he's singing voice (    ) became stronger over the years.",
     "options": [
       "actually",
-      "gradually",
       "naturally",
-      "usually"
+      "usually",
+      "gradually"
     ],
-    "answer": 1,
+    "answer": 3,
     "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼の歌声は年月を経て徐々に力強くなりました。",
     "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
   },
   {
     "id": 40,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, When they heard the news, they (    ) called their family.",
+    "type": "sentence",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
     "options": [
-      "extremely",
-      "unfortunately",
       "completely",
-      "immediately"
+      "extremely",
+      "immediately",
+      "unfortunately"
     ],
-    "answer": 3,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはそのニュースを聞いた時、すぐに家族に電話しました。",
+    "answer": 2,
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
     "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
   },
   {
@@ -565,9 +565,9 @@ const questionBank = [
     "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
     "options": [
       "eventually",
-      "specifically",
+      "specially",
       "especially",
-      "specially"
+      "specifically"
     ],
     "answer": 2,
     "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
@@ -578,12 +578,12 @@ const questionBank = [
     "type": "sentence",
     "text": "The members of Mrs. GREEN APPLE feel (    ) for making the fans happy.",
     "options": [
-      "responsible",
-      "flexible",
       "possible",
+      "flexible",
+      "responsible",
       "terrible"
     ],
-    "answer": 0,
+    "answer": 2,
     "translation": "ミセスグリーンアップルのメンバーはファンを幸せにすることに責任を感じています。",
     "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
   },
@@ -592,41 +592,41 @@ const questionBank = [
     "type": "sentence",
     "text": "Motoki Ohmori was not (    ) for the interview yesterday.",
     "options": [
-      "available",
-      "suitable",
       "capable",
-      "valuable"
+      "available",
+      "valuable",
+      "suitable"
     ],
-    "answer": 0,
+    "answer": 1,
     "translation": "大森元貴は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
     "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
   },
   {
     "id": 44,
-    "type": "sentence",
-    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he finally managed to (    ) how to use the new synthesizer.",
     "options": [
       "turn out",
-      "carry out",
       "figure out",
-      "point out"
+      "point out",
+      "carry out"
     ],
-    "answer": 2,
-    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
+    "answer": 1,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はついに新しいシンセサイザーの使い方を理解することができました。",
     "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
   },
   {
     "id": 45,
-    "type": "sentence",
-    "text": "The song Ryoka Fujisawa wrote casually (    ) to be a massive hit.",
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, The song he wrote casually (    ) to be a massive hit.",
     "options": [
-      "turn out",
       "break out",
-      "find out",
-      "run out"
+      "turn out",
+      "run out",
+      "find out"
     ],
-    "answer": 0,
-    "translation": "藤澤涼架が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "answer": 1,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼が何気なく書いた曲が、大ヒットであることが判明しました。",
     "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
   },
   {
@@ -635,9 +635,9 @@ const questionBank = [
     "text": "The success of the live tour will (    ) teamwork, according to Mrs. GREEN APPLE.",
     "options": [
       "depend on",
-      "focus on",
+      "rely on",
       "insist on",
-      "rely on"
+      "focus on"
     ],
     "answer": 0,
     "translation": "ミセスグリーンアップルによると、ライブツアーの成功はチームワークにかかっているとのことです。",
@@ -648,12 +648,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE booked the flight tickets (    ) for the trip.",
     "options": [
-      "in general",
-      "in detail",
       "in particular",
-      "in advance"
+      "in general",
+      "in advance",
+      "in detail"
     ],
-    "answer": 3,
+    "answer": 2,
     "translation": "ミセスグリーンアップルは旅行のために航空券を事前に予約しました。",
     "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
   },
@@ -662,12 +662,12 @@ const questionBank = [
     "type": "sentence",
     "text": "The members of Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
     "options": [
+      "make sense",
       "make up",
       "make sure",
-      "make progress",
-      "make sense"
+      "make progress"
     ],
-    "answer": 3,
+    "answer": 0,
     "translation": "ミセスグリーンアップルのメンバーは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
     "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
   },
@@ -676,27 +676,27 @@ const questionBank = [
     "type": "sentence",
     "text": "Motoki Ohmori noticed that they had (    ) milk while making breakfast.",
     "options": [
-      "get out of",
-      "keep out of",
       "run out of",
-      "stay out of"
+      "get out of",
+      "stay out of",
+      "keep out of"
     ],
-    "answer": 2,
+    "answer": 0,
     "translation": "大森元貴は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
     "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
   },
   {
     "id": 50,
-    "type": "conversation",
-    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The music festival where he will perform is going to (    ) in August.",
+    "type": "sentence",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
     "options": [
-      "take place",
-      "take pride",
       "take care",
-      "take part"
+      "take part",
+      "take place",
+      "take pride"
     ],
-    "answer": 0,
-    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼が出演する音楽フェスは8月に開催される予定です。",
+    "answer": 2,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
     "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
   },
   {
@@ -706,10 +706,10 @@ const questionBank = [
     "options": [
       "look out for",
       "look up to",
-      "look down on",
-      "look forward to"
+      "look forward to",
+      "look down on"
     ],
-    "answer": 3,
+    "answer": 2,
     "translation": "藤澤涼架はまたファンに会えるのを本当に楽しみにしています。",
     "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
   },
@@ -718,12 +718,12 @@ const questionBank = [
     "type": "sentence",
     "text": "Mrs. GREEN APPLE advised the members to (    ) the small details in the sound.",
     "options": [
-      "catch sight of",
-      "take advantage of",
+      "get rid of",
       "pay attention to",
-      "get rid of"
+      "take advantage of",
+      "catch sight of"
     ],
-    "answer": 2,
+    "answer": 1,
     "translation": "ミセスグリーンアップルはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
     "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
   },
@@ -734,87 +734,437 @@ const questionBank = [
     "options": [
       "come up with",
       "keep up with",
-      "deal with",
-      "put up with"
+      "put up with",
+      "deal with"
     ],
-    "answer": 2,
+    "answer": 3,
     "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
     "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
   },
   {
     "id": 54,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE bought some fresh (    ) to cook pasta.",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
     "options": [
-      "instructions",
-      "ingredients",
-      "instruments",
-      "insects"
+      "transition",
+      "tradition",
+      "transportation",
+      "translation"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーはパスタを作るために新鮮な材料をいくつか買いました。",
-    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
   },
   {
     "id": 55,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he ordered new (    ) for the home studio.",
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
     "options": [
-      "equipment",
-      "environment",
-      "experiment",
-      "employment"
+      "celebration",
+      "candidate",
+      "certificate",
+      "customer"
     ],
-    "answer": 0,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は自宅スタジオのために新しい機材を注文しました。",
-    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+    "answer": 1,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
   },
   {
     "id": 56,
-    "type": "sentence",
-    "text": "Hiroto Wakai fell asleep as a (    ) on the train.",
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he always treats the concert staff and every (    ) with great respect.",
     "options": [
-      "stranger",
-      "messenger",
-      "passenger",
-      "manager"
+      "employee",
+      "manager",
+      "employer",
+      "engineer"
     ],
-    "answer": 2,
-    "translation": "若井滉斗は電車の乗客として眠ってしまいました。",
-    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+    "answer": 0,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
   },
   {
     "id": 57,
     "type": "sentence",
-    "text": "Ryoka Fujisawa finally arrived at the (    ) after a long drive.",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
     "options": [
-      "description",
-      "destination",
+      "record",
+      "period",
       "department",
-      "decision"
+      "method"
     ],
-    "answer": 1,
-    "translation": "藤澤涼架は長時間のドライブの末、ついに目的地に到着しました。",
-    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+    "answer": 3,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
   },
   {
     "id": 58,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they used their first (    ) to buy a gift for their parents.",
     "options": [
       "society",
-      "anxiety",
-      "safety",
-      "variety"
+      "sympathy",
+      "salary",
+      "safety"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
-    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
   },
   {
     "id": 59,
     "type": "sentence",
-    "text": "One (    ) of living in Tokyo is that Mrs. GREEN APPLE can easily go to many concerts.",
+    "text": "Mrs. GREEN APPLE had to (    ) that they forgot the lyrics for a moment during the live.",
+    "options": [
+      "admit",
+      "submit",
+      "permit",
+      "commit"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
+  },
+  {
+    "id": 60,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE never (    )s others when a mistake happens in the studio.",
+    "options": [
+      "blame",
+      "frame",
+      "claim",
+      "flame"
+    ],
+    "answer": 0,
+    "translation": "スタジオでミスが起きた時、ミセスグリーンアップルのメンバーは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
+  },
+  {
+    "id": 61,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he had to (    ) the dinner reservation because the recording took longer.",
+    "options": [
+      "channel",
+      "cancel",
+      "panel",
+      "tunnel"
+    ],
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、レコーディングが長引いたため、彼は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
+  },
+  {
+    "id": 62,
+    "type": "sentence",
+    "text": "Hiroto Wakai tries to (    ) negative comments on the internet.",
+    "options": [
+      "ignore",
+      "restore",
+      "store",
+      "explore"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
+  },
+  {
+    "id": 63,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa used a ruler to (    ) the size of the new guitar case.",
+    "options": [
+      "measure",
+      "treasure",
+      "leisure",
+      "pleasure"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
+  },
+  {
+    "id": 64,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE donated money to an organization that (    )s stray animals.",
+    "options": [
+      "rescue",
+      "continue",
+      "argue",
+      "value"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
+  },
+  {
+    "id": 65,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) for the best ramen shop in the city tonight.",
+    "options": [
+      "teach",
+      "catch",
+      "reach",
+      "search"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
+  },
+  {
+    "id": 66,
+    "type": "sentence",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
+    "options": [
+      "warn",
+      "burn",
+      "turn",
+      "learn"
+    ],
+    "answer": 0,
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
+  },
+  {
+    "id": 67,
+    "type": "sentence",
+    "text": "Due to a (    ) of sleep, Motoki Ohmori drank three cups of coffee.",
+    "options": [
+      "rock",
+      "lack",
+      "lock",
+      "luck"
+    ],
+    "answer": 1,
+    "translation": "睡眠不足のため、大森元貴はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
+  },
+  {
+    "id": 68,
+    "type": "sentence",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
+    "options": [
+      "tree",
+      "flee",
+      "fee",
+      "free"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 69,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa believes that good (    ) is much more important than money.",
+    "options": [
+      "health",
+      "death",
+      "stealth",
+      "wealth"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 70,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, Once they starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "tone",
+      "zone",
+      "bone",
+      "stone"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、一度曲を書き始めると、彼らは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 71,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
+      "deny",
+      "defy",
+      "reply",
+      "rely"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
+  },
+  {
+    "id": 72,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE love to (    ) with friends and play board games.",
+    "options": [
+      "bother",
+      "father",
+      "gather",
+      "weather"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
+  },
+  {
+    "id": 73,
+    "type": "sentence",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
+    "options": [
+      "tire",
+      "wire",
+      "fire",
+      "hire"
+    ],
+    "answer": 3,
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
+  },
+  {
+    "id": 74,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he thinks people should not (    ) others based solely on appearance.",
+    "options": [
+      "edge",
+      "judge",
+      "bridge",
+      "pledge"
+    ],
+    "answer": 1,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
+  },
+  {
+    "id": 75,
+    "type": "sentence",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
+    "options": [
+      "hit",
+      "sit",
+      "knit",
+      "fit"
+    ],
+    "answer": 2,
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
+  },
+  {
+    "id": 76,
+    "type": "sentence",
+    "text": "Tired after the live, Mrs. GREEN APPLE tried to (    ) against the wall.",
+    "options": [
+      "clean",
+      "lean",
+      "mean",
+      "bean"
+    ],
+    "answer": 1,
+    "translation": "ライブの後で疲れていたので、ミセスグリーンアップルは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
+  },
+  {
+    "id": 77,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they uses a special case to (    ) the condition of the vintage guitar.",
+    "options": [
+      "preserve",
+      "deserve",
+      "reserve",
+      "observe"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
+  },
+  {
+    "id": 78,
+    "type": "sentence",
+    "text": "When The members of Mrs. GREEN APPLE started playing, all the nervousness seemed to (    ).",
+    "options": [
+      "vanish",
+      "punish",
+      "finish",
+      "banish"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
+  },
+  {
+    "id": 79,
+    "type": "sentence",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
+    "options": [
+      "ingredients",
+      "insects",
+      "instructions",
+      "instruments"
+    ],
+    "answer": 0,
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
+    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+  },
+  {
+    "id": 80,
+    "type": "sentence",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "options": [
+      "environment",
+      "equipment",
+      "experiment",
+      "employment"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+  },
+  {
+    "id": 81,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he fell asleep as a (    ) on the train.",
+    "options": [
+      "passenger",
+      "messenger",
+      "stranger",
+      "manager"
+    ],
+    "answer": 0,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は電車の乗客として眠ってしまいました。",
+    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+  },
+  {
+    "id": 82,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
+    "options": [
+      "decision",
+      "department",
+      "description",
+      "destination"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
+    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+  },
+  {
+    "id": 83,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "options": [
+      "variety",
+      "anxiety",
+      "safety",
+      "society"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
+    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+  },
+  {
+    "id": 84,
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
     "options": [
       "advance",
       "advantage",
@@ -822,67 +1172,67 @@ const questionBank = [
       "advice"
     ],
     "answer": 1,
-    "translation": "東京に住む一つの利点は、ミセスグリーンアップルがたくさんのコンサートに簡単に行けることです。",
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
     "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
   },
   {
-    "id": 60,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they missed the (    ) to take a walk in the park because of the rain.",
+    "id": 85,
+    "type": "sentence",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
     "options": [
+      "opposition",
       "opinion",
       "operation",
-      "opposition",
       "opportunity"
     ],
     "answer": 3,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは雨のせいで公園を散歩する機会を逃しました。",
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
     "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
   },
   {
-    "id": 61,
+    "id": 86,
     "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, The (    ) cheered loudly when he appeared on stage.",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The (    ) cheered loudly when he appeared on stage.",
     "options": [
-      "attendance",
-      "absence",
       "audience",
-      "appearance"
+      "attendance",
+      "appearance",
+      "absence"
     ],
-    "answer": 2,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "answer": 0,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼がステージに現れた時、観客は大きな声で歓声を上げました。",
     "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
   },
   {
-    "id": 62,
+    "id": 87,
     "type": "sentence",
-    "text": "Hiroto Wakai often takes pictures while walking around the (    ).",
+    "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
     "options": [
       "livelihood",
-      "brotherhood",
+      "neighborhood",
       "childhood",
-      "neighborhood"
+      "brotherhood"
     ],
-    "answer": 3,
-    "translation": "若井滉斗は近所を散歩しながらよく写真を撮ります。",
+    "answer": 1,
+    "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
     "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
   },
   {
-    "id": 63,
+    "id": 88,
     "type": "sentence",
-    "text": "Ryoka Fujisawa felt a certain (    ) of nervousness before the live broadcast.",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
     "options": [
-      "disagree",
       "decree",
       "degree",
-      "agree"
+      "agree",
+      "disagree"
     ],
-    "answer": 2,
-    "translation": "藤澤涼架は生放送の前に、ある程度の緊張を感じました。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
     "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
   },
   {
-    "id": 64,
+    "id": 89,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
     "options": [
@@ -896,93 +1246,93 @@ const questionBank = [
     "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
   },
   {
-    "id": 65,
+    "id": 90,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE was deeply moved by the beautiful (    ) of the mountains.",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
     "options": [
+      "scene",
       "scenery",
-      "science",
       "screen",
-      "scene"
+      "science"
     ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルは山の美しい風景に深く感動しました。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
     "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
   },
   {
-    "id": 66,
+    "id": 91,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE eat healthy food to prevent (    ).",
+    "text": "Motoki Ohmori eats healthy food to prevent (    ).",
     "options": [
-      "decrease",
-      "disease",
       "desire",
-      "deceive"
+      "deceive",
+      "disease",
+      "decrease"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーは病気を防ぐために健康的な食べ物を食べます。",
+    "answer": 2,
+    "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
     "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
   },
   {
-    "id": 67,
+    "id": 92,
     "type": "sentence",
-    "text": "It is a (    ) for Motoki Ohmori to drink coffee every morning.",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
     "options": [
-      "castle",
       "costume",
       "custom",
-      "customer"
+      "customer",
+      "castle"
     ],
-    "answer": 2,
-    "translation": "毎朝コーヒーを飲むのが大森元貴の習慣です。",
+    "answer": 1,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
     "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
   },
   {
-    "id": 68,
-    "type": "sentence",
-    "text": "Hiroto Wakai spent a large (    ) of money on new clothes.",
+    "id": 93,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he spent a large (    ) of money on new clothes.",
     "options": [
       "allowance",
-      "announce",
       "account",
+      "announce",
       "amount"
     ],
     "answer": 3,
-    "translation": "若井滉斗は新しい服に多額のお金を使いました。",
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は新しい服に多額のお金を使いました。",
     "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
   },
   {
-    "id": 69,
+    "id": 94,
     "type": "sentence",
-    "text": "Ryoka Fujisawa worked hard to (    ) the goal of making a great album.",
+    "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
     "options": [
-      "believe",
       "achieve",
+      "believe",
       "deceive",
       "receive"
     ],
-    "answer": 1,
-    "translation": "藤澤涼架は素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
     "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
   },
   {
-    "id": 70,
+    "id": 95,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE never (    )s about being too busy.",
     "options": [
-      "contain",
-      "complain",
       "explain",
-      "remain"
+      "complain",
+      "remain",
+      "contain"
     ],
     "answer": 1,
     "translation": "ミセスグリーンアップルは忙しすぎることについて決して不平を言いません。",
     "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
   },
   {
-    "id": 71,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE's smile always (    )s the fans.",
+    "id": 96,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they's smile always (    )s the fans.",
     "options": [
       "encourage",
       "enlarge",
@@ -990,97 +1340,1189 @@ const questionBank = [
       "engage"
     ],
     "answer": 0,
-    "translation": "ミセスグリーンアップルの笑顔はいつもファンを勇気づけます。",
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らの笑顔はいつもファンを勇気づけます。",
     "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
   },
   {
-    "id": 72,
+    "id": 97,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE practice every day to (    ) guitar skills.",
+    "text": "Motoki Ohmori practices every day to (    ) guitar skills.",
     "options": [
+      "approve",
       "prove",
-      "improve",
       "remove",
-      "approve"
+      "improve"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーはギターのスキルを向上させるために毎日練習しています。",
+    "answer": 3,
+    "translation": "大森元貴はギターのスキルを向上させるために毎日練習しています。",
     "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
   },
   {
-    "id": 73,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he (    )ed that they should go eat ramen after the rehearsal.",
+    "id": 98,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
     "options": [
-      "request",
-      "digest",
       "suggest",
-      "invest"
+      "digest",
+      "invest",
+      "request"
     ],
-    "answer": 2,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "answer": 0,
+    "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
     "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
   },
   {
-    "id": 74,
+    "id": 99,
     "type": "sentence",
-    "text": "Hiroto Wakai needs to (    ) the broken strings on the guitar.",
+    "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
     "options": [
-      "relax",
       "reduce",
       "replace",
-      "place"
+      "place",
+      "relax"
     ],
-    "answer": 2,
-    "translation": "若井滉斗はギターの切れた弦を交換する必要があります。",
+    "answer": 1,
+    "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
     "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
   },
   {
-    "id": 75,
+    "id": 100,
     "type": "sentence",
-    "text": "Ryoka Fujisawa was easily (    )d by fans while shopping at the mall.",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
     "options": [
-      "realize",
+      "memorize",
       "organize",
       "recognize",
-      "memorize"
+      "realize"
     ],
     "answer": 2,
-    "translation": "藤澤涼架はショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
     "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
   },
   {
-    "id": 76,
+    "id": 101,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE will (    ) in a charity marathon next month.",
     "options": [
       "anticipate",
       "participate",
-      "calculate",
-      "hesitate"
+      "hesitate",
+      "calculate"
     ],
     "answer": 1,
     "translation": "ミセスグリーンアップルは来月チャリティーマラソンに参加します。",
     "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
   },
   {
-    "id": 77,
+    "id": 102,
     "type": "sentence",
-    "text": "Writing a good song (    )s a lot of concentration for Mrs. GREEN APPLE.",
+    "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
     "options": [
-      "inquire",
       "retire",
       "acquire",
+      "inquire",
       "require"
     ],
     "answer": 3,
-    "translation": "良い曲を書くことはミセスグリーンアップルにとって多くの集中力を必要とします。",
+    "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
     "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
   },
   {
-    "id": 78,
+    "id": 103,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE don't like to (    ) themselves with others.",
+    "text": "Motoki Ohmori doesn't like to (    ) themselves with others.",
+    "options": [
+      "repair",
+      "compare",
+      "prepare",
+      "declare"
+    ],
+    "answer": 1,
+    "translation": "大森元貴は自分自身を他人と比較するのが好きではありません。",
+    "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
+  },
+  {
+    "id": 104,
+    "type": "sentence",
+    "text": "Hiroto Wakai wants to (    ) fans with unforgettable memories.",
+    "options": [
+      "divide",
+      "decide",
+      "provide",
+      "guide"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗はファンに忘れられない思い出を提供したいと思っています。",
+    "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
+  },
+  {
+    "id": 105,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
+    "options": [
+      "supply",
+      "apply",
+      "reply",
+      "rely"
+    ],
+    "answer": 3,
+    "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
+  },
+  {
+    "id": 106,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
+    "options": [
+      "record",
+      "afford",
+      "reward",
+      "effort"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
+  },
+  {
+    "id": 107,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
+    "options": [
+      "invent",
+      "event",
+      "present",
+      "prevent"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
+    "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
+  },
+  {
+    "id": 108,
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
+    "options": [
+      "modify",
+      "terrify",
+      "satisfy",
+      "qualify"
+    ],
+    "answer": 2,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
+    "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
+  },
+  {
+    "id": 109,
+    "type": "sentence",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
+    "options": [
+      "popular",
+      "familiar",
+      "similar",
+      "regular"
+    ],
+    "answer": 1,
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
+    "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
+  },
+  {
+    "id": 110,
+    "type": "sentence",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
+    "options": [
+      "confident",
+      "excellent",
+      "convenient",
+      "current"
+    ],
+    "answer": 2,
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
+    "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
+  },
+  {
+    "id": 111,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa has been very (    ) since moving out of the parents' house.",
+    "options": [
+      "confident",
+      "silent",
+      "independent",
+      "dependent"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架は実家を出て以来、とても自立しています。",
+    "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
+  },
+  {
+    "id": 112,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE likes to cook dishes from (    ) countries.",
+    "options": [
+      "various",
+      "obvious",
+      "curious",
+      "serious"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは様々な国の料理を作るのが好きです。",
+    "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
+  },
+  {
+    "id": 113,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
+    "options": [
+      "curious",
+      "serious",
+      "furious",
+      "nervous"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
+    "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
+  },
+  {
+    "id": 114,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they were not (    ) of the time and stayed up late playing games.",
+    "options": [
+      "alike",
+      "aware",
+      "awake",
+      "away"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは時間に気付かず、夜遅くまでゲームをして起きていました。",
+    "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
+  },
+  {
+    "id": 115,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, That is (    ) what he wanted to say.",
+    "options": [
+      "nearly",
+      "exactly",
+      "hardly",
+      "mostly"
+    ],
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、それはまさに彼が言いたかったことです。",
+    "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
+  },
+  {
+    "id": 116,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    ) visits that small cafe in the afternoon.",
+    "options": [
+      "rarely",
+      "suddenly",
+      "frequently",
+      "recently"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は午後によくその小さなカフェを訪れます。",
+    "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
+  },
+  {
+    "id": 117,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he's singing voice (    ) became stronger over the years.",
+    "options": [
+      "gradually",
+      "usually",
+      "naturally",
+      "actually"
+    ],
+    "answer": 0,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼の歌声は年月を経て徐々に力強くなりました。",
+    "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
+  },
+  {
+    "id": 118,
+    "type": "sentence",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
+    "options": [
+      "unfortunately",
+      "extremely",
+      "completely",
+      "immediately"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
+    "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
+  },
+  {
+    "id": 119,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
+    "options": [
+      "specifically",
+      "specially",
+      "eventually",
+      "especially"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
+    "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
+  },
+  {
+    "id": 120,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE feel (    ) for making the fans happy.",
+    "options": [
+      "flexible",
+      "terrible",
+      "responsible",
+      "possible"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーはファンを幸せにすることに責任を感じています。",
+    "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
+  },
+  {
+    "id": 121,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he was not (    ) for the interview yesterday.",
+    "options": [
+      "capable",
+      "valuable",
+      "suitable",
+      "available"
+    ],
+    "answer": 3,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
+    "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
+  },
+  {
+    "id": 122,
+    "type": "sentence",
+    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
+    "options": [
+      "figure out",
+      "point out",
+      "turn out",
+      "carry out"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
+    "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
+  },
+  {
+    "id": 123,
+    "type": "sentence",
+    "text": "The song Ryoka Fujisawa wrote casually (    ) to be a massive hit.",
+    "options": [
+      "run out",
+      "break out",
+      "find out",
+      "turn out"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
+  },
+  {
+    "id": 124,
+    "type": "sentence",
+    "text": "The success of the live tour will (    ) teamwork, according to Mrs. GREEN APPLE.",
+    "options": [
+      "insist on",
+      "focus on",
+      "depend on",
+      "rely on"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルによると、ライブツアーの成功はチームワークにかかっているとのことです。",
+    "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
+  },
+  {
+    "id": 125,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE booked the flight tickets (    ) for the trip.",
+    "options": [
+      "in particular",
+      "in detail",
+      "in advance",
+      "in general"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは旅行のために航空券を事前に予約しました。",
+    "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
+  },
+  {
+    "id": 126,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
+    "options": [
+      "make up",
+      "make progress",
+      "make sure",
+      "make sense"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
+    "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
+  },
+  {
+    "id": 127,
+    "type": "sentence",
+    "text": "Motoki Ohmori noticed that they had (    ) milk while making breakfast.",
+    "options": [
+      "run out of",
+      "stay out of",
+      "keep out of",
+      "get out of"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
+    "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
+  },
+  {
+    "id": 128,
+    "type": "sentence",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
+    "options": [
+      "take part",
+      "take pride",
+      "take care",
+      "take place"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
+    "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
+  },
+  {
+    "id": 129,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa is really (    ) meeting the fans again.",
+    "options": [
+      "look down on",
+      "look forward to",
+      "look up to",
+      "look out for"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架はまたファンに会えるのを本当に楽しみにしています。",
+    "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
+  },
+  {
+    "id": 130,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE advised the members to (    ) the small details in the sound.",
+    "options": [
+      "take advantage of",
+      "pay attention to",
+      "catch sight of",
+      "get rid of"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
+    "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
+  },
+  {
+    "id": 131,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE knows how to politely (    ) difficult situations.",
+    "options": [
+      "come up with",
+      "keep up with",
+      "put up with",
+      "deal with"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
+    "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
+  },
+  {
+    "id": 132,
+    "type": "sentence",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
+    "options": [
+      "transition",
+      "tradition",
+      "translation",
+      "transportation"
+    ],
+    "answer": 1,
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
+  },
+  {
+    "id": 133,
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
+    "options": [
+      "candidate",
+      "certificate",
+      "celebration",
+      "customer"
+    ],
+    "answer": 0,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
+  },
+  {
+    "id": 134,
+    "type": "sentence",
+    "text": "Hiroto Wakai always treats the concert staff and every (    ) with great respect.",
+    "options": [
+      "engineer",
+      "employee",
+      "manager",
+      "employer"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
+  },
+  {
+    "id": 135,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
+    "options": [
+      "department",
+      "period",
+      "record",
+      "method"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
+  },
+  {
+    "id": 136,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE used their first (    ) to buy a gift for their parents.",
+    "options": [
+      "safety",
+      "salary",
+      "society",
+      "sympathy"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
+  },
+  {
+    "id": 137,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they had to (    ) that they forgot the lyrics for a moment during the live.",
+    "options": [
+      "admit",
+      "commit",
+      "permit",
+      "submit"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
+  },
+  {
+    "id": 138,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE never (    )s others when a mistake happens in the studio.",
+    "options": [
+      "blame",
+      "claim",
+      "frame",
+      "flame"
+    ],
+    "answer": 0,
+    "translation": "スタジオでミスが起きた時、ミセスグリーンアップルのメンバーは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
+  },
+  {
+    "id": 139,
+    "type": "sentence",
+    "text": "Motoki Ohmori had to (    ) the dinner reservation because the recording took longer.",
+    "options": [
+      "cancel",
+      "channel",
+      "panel",
+      "tunnel"
+    ],
+    "answer": 0,
+    "translation": "レコーディングが長引いたため、大森元貴は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
+  },
+  {
+    "id": 140,
+    "type": "sentence",
+    "text": "Hiroto Wakai tries to (    ) negative comments on the internet.",
+    "options": [
+      "explore",
+      "ignore",
+      "restore",
+      "store"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
+  },
+  {
+    "id": 141,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa used a ruler to (    ) the size of the new guitar case.",
+    "options": [
+      "measure",
+      "pleasure",
+      "leisure",
+      "treasure"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
+  },
+  {
+    "id": 142,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE donated money to an organization that (    )s stray animals.",
+    "options": [
+      "continue",
+      "argue",
+      "rescue",
+      "value"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
+  },
+  {
+    "id": 143,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they will (    ) for the best ramen shop in the city tonight.",
+    "options": [
+      "teach",
+      "catch",
+      "reach",
+      "search"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
+  },
+  {
+    "id": 144,
+    "type": "sentence",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
+    "options": [
+      "burn",
+      "turn",
+      "warn",
+      "learn"
+    ],
+    "answer": 2,
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
+  },
+  {
+    "id": 145,
+    "type": "sentence",
+    "text": "Due to a (    ) of sleep, Motoki Ohmori drank three cups of coffee.",
+    "options": [
+      "lack",
+      "lock",
+      "luck",
+      "rock"
+    ],
+    "answer": 0,
+    "translation": "睡眠不足のため、大森元貴はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
+  },
+  {
+    "id": 146,
+    "type": "sentence",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
+    "options": [
+      "fee",
+      "tree",
+      "flee",
+      "free"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 147,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa believes that good (    ) is much more important than money.",
+    "options": [
+      "stealth",
+      "death",
+      "health",
+      "wealth"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 148,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, Once they starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "bone",
+      "zone",
+      "tone",
+      "stone"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、一度曲を書き始めると、彼らは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 149,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
+      "rely",
+      "deny",
+      "reply",
+      "defy"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
+  },
+  {
+    "id": 150,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they love to (    ) with friends and play board games.",
+    "options": [
+      "weather",
+      "bother",
+      "gather",
+      "father"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
+  },
+  {
+    "id": 151,
+    "type": "sentence",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
+    "options": [
+      "tire",
+      "hire",
+      "fire",
+      "wire"
+    ],
+    "answer": 1,
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
+  },
+  {
+    "id": 152,
+    "type": "sentence",
+    "text": "Hiroto Wakai thinks people should not (    ) others based solely on appearance.",
+    "options": [
+      "judge",
+      "edge",
+      "bridge",
+      "pledge"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
+  },
+  {
+    "id": 153,
+    "type": "sentence",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
+    "options": [
+      "knit",
+      "hit",
+      "sit",
+      "fit"
+    ],
+    "answer": 0,
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
+  },
+  {
+    "id": 154,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, Tired after the live, they tried to (    ) against the wall.",
+    "options": [
+      "clean",
+      "bean",
+      "mean",
+      "lean"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、ライブの後で疲れていたので、彼らは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
+  },
+  {
+    "id": 155,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE uses a special case to (    ) the condition of the vintage guitar.",
+    "options": [
+      "preserve",
+      "observe",
+      "reserve",
+      "deserve"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
+  },
+  {
+    "id": 156,
+    "type": "sentence",
+    "text": "When The members of Mrs. GREEN APPLE started playing, all the nervousness seemed to (    ).",
+    "options": [
+      "finish",
+      "banish",
+      "vanish",
+      "punish"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
+  },
+  {
+    "id": 157,
+    "type": "sentence",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
+    "options": [
+      "ingredients",
+      "instructions",
+      "instruments",
+      "insects"
+    ],
+    "answer": 0,
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
+    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+  },
+  {
+    "id": 158,
+    "type": "sentence",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "options": [
+      "environment",
+      "employment",
+      "equipment",
+      "experiment"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+  },
+  {
+    "id": 159,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa fell asleep as a (    ) on the train.",
+    "options": [
+      "messenger",
+      "manager",
+      "passenger",
+      "stranger"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架は電車の乗客として眠ってしまいました。",
+    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+  },
+  {
+    "id": 160,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
+    "options": [
+      "decision",
+      "destination",
+      "department",
+      "description"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
+    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+  },
+  {
+    "id": 161,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "options": [
+      "safety",
+      "anxiety",
+      "society",
+      "variety"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
+    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+  },
+  {
+    "id": 162,
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
+    "options": [
+      "advice",
+      "advantage",
+      "advance",
+      "adventure"
+    ],
+    "answer": 1,
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
+    "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
+  },
+  {
+    "id": 163,
+    "type": "sentence",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
+    "options": [
+      "opportunity",
+      "opinion",
+      "opposition",
+      "operation"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
+    "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
+  },
+  {
+    "id": 164,
+    "type": "sentence",
+    "text": "The (    ) cheered loudly when Hiroto Wakai appeared on stage.",
+    "options": [
+      "attendance",
+      "absence",
+      "appearance",
+      "audience"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
+  },
+  {
+    "id": 165,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
+    "options": [
+      "childhood",
+      "brotherhood",
+      "livelihood",
+      "neighborhood"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
+    "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
+  },
+  {
+    "id": 166,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
+    "options": [
+      "degree",
+      "disagree",
+      "agree",
+      "decree"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
+    "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
+  },
+  {
+    "id": 167,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
+    "options": [
+      "literature",
+      "creature",
+      "temperature",
+      "feature"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
+    "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
+  },
+  {
+    "id": 168,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
+    "options": [
+      "scene",
+      "science",
+      "scenery",
+      "screen"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
+    "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
+  },
+  {
+    "id": 169,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he eats healthy food to prevent (    ).",
+    "options": [
+      "deceive",
+      "disease",
+      "desire",
+      "decrease"
+    ],
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は病気を防ぐために健康的な食べ物を食べます。",
+    "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
+  },
+  {
+    "id": 170,
+    "type": "sentence",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
+    "options": [
+      "costume",
+      "custom",
+      "customer",
+      "castle"
+    ],
+    "answer": 1,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
+    "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
+  },
+  {
+    "id": 171,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he spent a large (    ) of money on new clothes.",
+    "options": [
+      "announce",
+      "amount",
+      "allowance",
+      "account"
+    ],
+    "answer": 1,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は新しい服に多額のお金を使いました。",
+    "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
+  },
+  {
+    "id": 172,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
+    "options": [
+      "believe",
+      "achieve",
+      "deceive",
+      "receive"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
+  },
+  {
+    "id": 173,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE never (    )s about being too busy.",
+    "options": [
+      "complain",
+      "contain",
+      "explain",
+      "remain"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは忙しすぎることについて決して不平を言いません。",
+    "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
+  },
+  {
+    "id": 174,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE's smile always (    )s the fans.",
+    "options": [
+      "discourage",
+      "engage",
+      "enlarge",
+      "encourage"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーの笑顔はいつもファンを勇気づけます。",
+    "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
+  },
+  {
+    "id": 175,
+    "type": "sentence",
+    "text": "Motoki Ohmori practices every day to (    ) guitar skills.",
+    "options": [
+      "remove",
+      "approve",
+      "prove",
+      "improve"
+    ],
+    "answer": 3,
+    "translation": "大森元貴はギターのスキルを向上させるために毎日練習しています。",
+    "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
+  },
+  {
+    "id": 176,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
+    "options": [
+      "request",
+      "suggest",
+      "invest",
+      "digest"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
+  },
+  {
+    "id": 177,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he needs to (    ) the broken strings on the guitar.",
+    "options": [
+      "replace",
+      "place",
+      "relax",
+      "reduce"
+    ],
+    "answer": 0,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼はギターの切れた弦を交換する必要があります。",
+    "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
+  },
+  {
+    "id": 178,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
+    "options": [
+      "memorize",
+      "realize",
+      "organize",
+      "recognize"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
+  },
+  {
+    "id": 179,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they will (    ) in a charity marathon next month.",
+    "options": [
+      "participate",
+      "anticipate",
+      "hesitate",
+      "calculate"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは来月チャリティーマラソンに参加します。",
+    "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
+  },
+  {
+    "id": 180,
+    "type": "sentence",
+    "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
+    "options": [
+      "require",
+      "retire",
+      "acquire",
+      "inquire"
+    ],
+    "answer": 0,
+    "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
+    "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
+  },
+  {
+    "id": 181,
+    "type": "sentence",
+    "text": "Motoki Ohmori doesn't like to (    ) themselves with others.",
     "options": [
       "repair",
       "compare",
@@ -1088,125 +2530,1217 @@ const questionBank = [
       "prepare"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーは自分自身を他人と比較するのが好きではありません。",
+    "translation": "大森元貴は自分自身を他人と比較するのが好きではありません。",
     "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
   },
   {
-    "id": 79,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he wants to (    ) fans with unforgettable memories.",
+    "id": 182,
+    "type": "sentence",
+    "text": "Hiroto Wakai wants to (    ) fans with unforgettable memories.",
     "options": [
-      "provide",
+      "divide",
       "guide",
       "decide",
-      "divide"
+      "provide"
     ],
-    "answer": 0,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼はファンに忘れられない思い出を提供したいと思っています。",
+    "answer": 3,
+    "translation": "若井滉斗はファンに忘れられない思い出を提供したいと思っています。",
     "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
   },
   {
-    "id": 80,
+    "id": 183,
     "type": "sentence",
-    "text": "Hiroto Wakai can always (    ) on the other members when things get tough.",
+    "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
     "options": [
-      "supply",
       "rely",
-      "reply",
-      "apply"
+      "supply",
+      "apply",
+      "reply"
     ],
-    "answer": 1,
-    "translation": "困難な時、若井滉斗はいつも他のメンバーに頼ることができます。",
-    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事をする）、apply（適用する・申し込む）、supply（供給する）。"
+    "answer": 0,
+    "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
   },
   {
-    "id": 81,
+    "id": 184,
     "type": "sentence",
-    "text": "Ryoka Fujisawa couldn't (    ) to buy that expensive instrument years ago.",
+    "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
     "options": [
       "reward",
-      "effort",
+      "record",
       "afford",
-      "record"
+      "effort"
     ],
     "answer": 2,
-    "translation": "藤澤涼架は何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
     "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
   },
   {
-    "id": 82,
+    "id": 185,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
     "options": [
       "prevent",
-      "event",
       "invent",
-      "present"
+      "present",
+      "event"
     ],
     "answer": 0,
     "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
     "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
   },
   {
-    "id": 83,
+    "id": 186,
     "type": "sentence",
-    "text": "A simple meal of rice and miso soup is enough to (    ) Mrs. GREEN APPLE.",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
     "options": [
-      "satisfy",
       "qualify",
-      "terrify",
-      "modify"
+      "satisfy",
+      "modify",
+      "terrify"
     ],
-    "answer": 0,
-    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルを満足させるのに十分です。",
+    "answer": 1,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
     "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
   },
   {
-    "id": 84,
+    "id": 187,
     "type": "sentence",
-    "text": "The melody of that song are very (    ) to The members of Mrs. GREEN APPLE.",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
     "options": [
-      "familiar",
+      "popular",
       "regular",
-      "similar",
-      "popular"
+      "familiar",
+      "similar"
     ],
-    "answer": 0,
-    "translation": "その曲のメロディーはミセスグリーンアップルのメンバーにとってとても馴染みがあります。",
+    "answer": 2,
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
     "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
   },
   {
-    "id": 85,
+    "id": 188,
     "type": "sentence",
-    "text": "Living near the station is very (    ) for Motoki Ohmori.",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
     "options": [
-      "confident",
+      "excellent",
       "current",
       "convenient",
-      "excellent"
+      "confident"
     ],
     "answer": 2,
-    "translation": "駅の近くに住むことは大森元貴にとってとても便利です。",
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
     "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
   },
   {
-    "id": 86,
+    "id": 189,
     "type": "sentence",
-    "text": "Hiroto Wakai has been very (    ) since moving out of the parents' house.",
+    "text": "Ryoka Fujisawa has been very (    ) since moving out of the parents' house.",
     "options": [
       "dependent",
-      "confident",
       "silent",
+      "confident",
       "independent"
     ],
     "answer": 3,
-    "translation": "若井滉斗は実家を出て以来、とても自立しています。",
+    "translation": "藤澤涼架は実家を出て以来、とても自立しています。",
     "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
   },
   {
-    "id": 87,
+    "id": 190,
     "type": "sentence",
-    "text": "Ryoka Fujisawa likes to cook dishes from (    ) countries.",
+    "text": "Mrs. GREEN APPLE likes to cook dishes from (    ) countries.",
+    "options": [
+      "curious",
+      "various",
+      "serious",
+      "obvious"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは様々な国の料理を作るのが好きです。",
+    "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
+  },
+  {
+    "id": 191,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
+    "options": [
+      "furious",
+      "curious",
+      "serious",
+      "nervous"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
+    "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
+  },
+  {
+    "id": 192,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were not (    ) of the time and stayed up late playing games.",
+    "options": [
+      "aware",
+      "awake",
+      "alike",
+      "away"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーは時間に気付かず、夜遅くまでゲームをして起きていました。",
+    "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
+  },
+  {
+    "id": 193,
+    "type": "sentence",
+    "text": "That is (    ) what Motoki Ohmori wanted to say.",
+    "options": [
+      "exactly",
+      "mostly",
+      "nearly",
+      "hardly"
+    ],
+    "answer": 0,
+    "translation": "それはまさに大森元貴が言いたかったことです。",
+    "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
+  },
+  {
+    "id": 194,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    ) visits that small cafe in the afternoon.",
+    "options": [
+      "frequently",
+      "recently",
+      "rarely",
+      "suddenly"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は午後によくその小さなカフェを訪れます。",
+    "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
+  },
+  {
+    "id": 195,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa's singing voice (    ) became stronger over the years.",
+    "options": [
+      "actually",
+      "usually",
+      "gradually",
+      "naturally"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架の歌声は年月を経て徐々に力強くなりました。",
+    "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
+  },
+  {
+    "id": 196,
+    "type": "sentence",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
+    "options": [
+      "immediately",
+      "completely",
+      "unfortunately",
+      "extremely"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
+    "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
+  },
+  {
+    "id": 197,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
+    "options": [
+      "especially",
+      "eventually",
+      "specifically",
+      "specially"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
+    "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
+  },
+  {
+    "id": 198,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE feel (    ) for making the fans happy.",
+    "options": [
+      "possible",
+      "flexible",
+      "responsible",
+      "terrible"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーはファンを幸せにすることに責任を感じています。",
+    "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
+  },
+  {
+    "id": 199,
+    "type": "sentence",
+    "text": "Motoki Ohmori was not (    ) for the interview yesterday.",
+    "options": [
+      "valuable",
+      "suitable",
+      "available",
+      "capable"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
+    "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
+  },
+  {
+    "id": 200,
+    "type": "sentence",
+    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
+    "options": [
+      "figure out",
+      "carry out",
+      "point out",
+      "turn out"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
+    "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
+  },
+  {
+    "id": 201,
+    "type": "sentence",
+    "text": "The song Ryoka Fujisawa wrote casually (    ) to be a massive hit.",
+    "options": [
+      "turn out",
+      "break out",
+      "find out",
+      "run out"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
+  },
+  {
+    "id": 202,
+    "type": "sentence",
+    "text": "The success of the live tour will (    ) teamwork, according to Mrs. GREEN APPLE.",
+    "options": [
+      "focus on",
+      "rely on",
+      "insist on",
+      "depend on"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルによると、ライブツアーの成功はチームワークにかかっているとのことです。",
+    "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
+  },
+  {
+    "id": 203,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they booked the flight tickets (    ) for the trip.",
+    "options": [
+      "in detail",
+      "in particular",
+      "in general",
+      "in advance"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは旅行のために航空券を事前に予約しました。",
+    "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
+  },
+  {
+    "id": 204,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
+    "options": [
+      "make up",
+      "make sure",
+      "make progress",
+      "make sense"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
+    "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
+  },
+  {
+    "id": 205,
+    "type": "sentence",
+    "text": "Motoki Ohmori noticed that they had (    ) milk while making breakfast.",
+    "options": [
+      "run out of",
+      "get out of",
+      "stay out of",
+      "keep out of"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
+    "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
+  },
+  {
+    "id": 206,
+    "type": "sentence",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
+    "options": [
+      "take part",
+      "take pride",
+      "take care",
+      "take place"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
+    "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
+  },
+  {
+    "id": 207,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he is really (    ) meeting the fans again.",
+    "options": [
+      "look out for",
+      "look forward to",
+      "look down on",
+      "look up to"
+    ],
+    "answer": 1,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼はまたファンに会えるのを本当に楽しみにしています。",
+    "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
+  },
+  {
+    "id": 208,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they advised the members to (    ) the small details in the sound.",
+    "options": [
+      "take advantage of",
+      "pay attention to",
+      "catch sight of",
+      "get rid of"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
+    "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
+  },
+  {
+    "id": 209,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE knows how to politely (    ) difficult situations.",
+    "options": [
+      "put up with",
+      "come up with",
+      "keep up with",
+      "deal with"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
+    "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
+  },
+  {
+    "id": 210,
+    "type": "sentence",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
+    "options": [
+      "transportation",
+      "tradition",
+      "transition",
+      "translation"
+    ],
+    "answer": 1,
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
+  },
+  {
+    "id": 211,
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
+    "options": [
+      "customer",
+      "certificate",
+      "celebration",
+      "candidate"
+    ],
+    "answer": 3,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
+  },
+  {
+    "id": 212,
+    "type": "sentence",
+    "text": "Hiroto Wakai always treats the concert staff and every (    ) with great respect.",
+    "options": [
+      "employee",
+      "engineer",
+      "employer",
+      "manager"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
+  },
+  {
+    "id": 213,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
+    "options": [
+      "method",
+      "department",
+      "record",
+      "period"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
+  },
+  {
+    "id": 214,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE used their first (    ) to buy a gift for their parents.",
+    "options": [
+      "society",
+      "sympathy",
+      "safety",
+      "salary"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
+  },
+  {
+    "id": 215,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE had to (    ) that they forgot the lyrics for a moment during the live.",
+    "options": [
+      "submit",
+      "permit",
+      "commit",
+      "admit"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
+  },
+  {
+    "id": 216,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE never (    )s others when a mistake happens in the studio.",
+    "options": [
+      "frame",
+      "blame",
+      "flame",
+      "claim"
+    ],
+    "answer": 1,
+    "translation": "スタジオでミスが起きた時、ミセスグリーンアップルのメンバーは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
+  },
+  {
+    "id": 217,
+    "type": "sentence",
+    "text": "Motoki Ohmori had to (    ) the dinner reservation because the recording took longer.",
+    "options": [
+      "channel",
+      "panel",
+      "tunnel",
+      "cancel"
+    ],
+    "answer": 3,
+    "translation": "レコーディングが長引いたため、大森元貴は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
+  },
+  {
+    "id": 218,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he tries to (    ) negative comments on the internet.",
+    "options": [
+      "explore",
+      "restore",
+      "ignore",
+      "store"
+    ],
+    "answer": 2,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
+  },
+  {
+    "id": 219,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa used a ruler to (    ) the size of the new guitar case.",
+    "options": [
+      "leisure",
+      "measure",
+      "pleasure",
+      "treasure"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
+  },
+  {
+    "id": 220,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they donated money to an organization that (    )s stray animals.",
+    "options": [
+      "argue",
+      "continue",
+      "value",
+      "rescue"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
+  },
+  {
+    "id": 221,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) for the best ramen shop in the city tonight.",
+    "options": [
+      "reach",
+      "teach",
+      "search",
+      "catch"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
+  },
+  {
+    "id": 222,
+    "type": "sentence",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
+    "options": [
+      "turn",
+      "warn",
+      "learn",
+      "burn"
+    ],
+    "answer": 1,
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
+  },
+  {
+    "id": 223,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, Due to a (    ) of sleep, he drank three cups of coffee.",
+    "options": [
+      "rock",
+      "lock",
+      "luck",
+      "lack"
+    ],
+    "answer": 3,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、睡眠不足のため、彼はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
+  },
+  {
+    "id": 224,
+    "type": "sentence",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
+    "options": [
+      "flee",
+      "tree",
+      "fee",
+      "free"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 225,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa believes that good (    ) is much more important than money.",
+    "options": [
+      "wealth",
+      "stealth",
+      "health",
+      "death"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 226,
+    "type": "sentence",
+    "text": "Once Mrs. GREEN APPLE starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "zone",
+      "tone",
+      "stone",
+      "bone"
+    ],
+    "answer": 0,
+    "translation": "一度曲を書き始めると、ミセスグリーンアップルは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 227,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
+      "reply",
+      "deny",
+      "defy",
+      "rely"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
+  },
+  {
+    "id": 228,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they love to (    ) with friends and play board games.",
+    "options": [
+      "father",
+      "weather",
+      "gather",
+      "bother"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
+  },
+  {
+    "id": 229,
+    "type": "sentence",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
+    "options": [
+      "fire",
+      "wire",
+      "tire",
+      "hire"
+    ],
+    "answer": 3,
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
+  },
+  {
+    "id": 230,
+    "type": "sentence",
+    "text": "Hiroto Wakai thinks people should not (    ) others based solely on appearance.",
+    "options": [
+      "judge",
+      "pledge",
+      "bridge",
+      "edge"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
+  },
+  {
+    "id": 231,
+    "type": "sentence",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
+    "options": [
+      "hit",
+      "knit",
+      "fit",
+      "sit"
+    ],
+    "answer": 1,
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
+  },
+  {
+    "id": 232,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, Tired after the live, they tried to (    ) against the wall.",
+    "options": [
+      "clean",
+      "bean",
+      "lean",
+      "mean"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、ライブの後で疲れていたので、彼らは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
+  },
+  {
+    "id": 233,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE uses a special case to (    ) the condition of the vintage guitar.",
+    "options": [
+      "deserve",
+      "observe",
+      "reserve",
+      "preserve"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
+  },
+  {
+    "id": 234,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, When they started playing, all the nervousness seemed to (    ).",
+    "options": [
+      "punish",
+      "finish",
+      "vanish",
+      "banish"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
+  },
+  {
+    "id": 235,
+    "type": "sentence",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
+    "options": [
+      "instructions",
+      "ingredients",
+      "insects",
+      "instruments"
+    ],
+    "answer": 1,
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
+    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+  },
+  {
+    "id": 236,
+    "type": "sentence",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "options": [
+      "employment",
+      "equipment",
+      "environment",
+      "experiment"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+  },
+  {
+    "id": 237,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa fell asleep as a (    ) on the train.",
+    "options": [
+      "passenger",
+      "messenger",
+      "manager",
+      "stranger"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は電車の乗客として眠ってしまいました。",
+    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+  },
+  {
+    "id": 238,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
+    "options": [
+      "description",
+      "department",
+      "decision",
+      "destination"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
+    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+  },
+  {
+    "id": 239,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "options": [
+      "variety",
+      "safety",
+      "society",
+      "anxiety"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
+    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+  },
+  {
+    "id": 240,
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
+    "options": [
+      "advice",
+      "advance",
+      "adventure",
+      "advantage"
+    ],
+    "answer": 3,
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
+    "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
+  },
+  {
+    "id": 241,
+    "type": "sentence",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
+    "options": [
+      "opposition",
+      "operation",
+      "opportunity",
+      "opinion"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
+    "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
+  },
+  {
+    "id": 242,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The (    ) cheered loudly when he appeared on stage.",
+    "options": [
+      "absence",
+      "appearance",
+      "attendance",
+      "audience"
+    ],
+    "answer": 3,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
+  },
+  {
+    "id": 243,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
+    "options": [
+      "brotherhood",
+      "neighborhood",
+      "childhood",
+      "livelihood"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
+    "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
+  },
+  {
+    "id": 244,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
+    "options": [
+      "disagree",
+      "degree",
+      "agree",
+      "decree"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
+    "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
+  },
+  {
+    "id": 245,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
+    "options": [
+      "temperature",
+      "feature",
+      "creature",
+      "literature"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
+    "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
+  },
+  {
+    "id": 246,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
+    "options": [
+      "scenery",
+      "screen",
+      "science",
+      "scene"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
+    "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
+  },
+  {
+    "id": 247,
+    "type": "sentence",
+    "text": "Motoki Ohmori eats healthy food to prevent (    ).",
+    "options": [
+      "deceive",
+      "decrease",
+      "disease",
+      "desire"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
+    "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
+  },
+  {
+    "id": 248,
+    "type": "sentence",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
+    "options": [
+      "castle",
+      "custom",
+      "costume",
+      "customer"
+    ],
+    "answer": 1,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
+    "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
+  },
+  {
+    "id": 249,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa spent a large (    ) of money on new clothes.",
+    "options": [
+      "allowance",
+      "amount",
+      "account",
+      "announce"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は新しい服に多額のお金を使いました。",
+    "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
+  },
+  {
+    "id": 250,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they worked hard to (    ) the goal of making a great album.",
+    "options": [
+      "believe",
+      "deceive",
+      "receive",
+      "achieve"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
+  },
+  {
+    "id": 251,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE never (    )s about being too busy.",
+    "options": [
+      "remain",
+      "complain",
+      "contain",
+      "explain"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは忙しすぎることについて決して不平を言いません。",
+    "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
+  },
+  {
+    "id": 252,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE's smile always (    )s the fans.",
+    "options": [
+      "engage",
+      "discourage",
+      "encourage",
+      "enlarge"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーの笑顔はいつもファンを勇気づけます。",
+    "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
+  },
+  {
+    "id": 253,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he practices every day to (    ) guitar skills.",
+    "options": [
+      "remove",
+      "improve",
+      "approve",
+      "prove"
+    ],
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼はギターのスキルを向上させるために毎日練習しています。",
+    "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
+  },
+  {
+    "id": 254,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
+    "options": [
+      "request",
+      "digest",
+      "invest",
+      "suggest"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
+  },
+  {
+    "id": 255,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
+    "options": [
+      "reduce",
+      "place",
+      "relax",
+      "replace"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
+    "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
+  },
+  {
+    "id": 256,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
+    "options": [
+      "memorize",
+      "realize",
+      "organize",
+      "recognize"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
+  },
+  {
+    "id": 257,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) in a charity marathon next month.",
+    "options": [
+      "anticipate",
+      "participate",
+      "hesitate",
+      "calculate"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは来月チャリティーマラソンに参加します。",
+    "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
+  },
+  {
+    "id": 258,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, Writing a good song (    )s a lot of concentration for they.",
+    "options": [
+      "inquire",
+      "acquire",
+      "retire",
+      "require"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、良い曲を書くことは彼らにとって多くの集中力を必要とします。",
+    "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
+  },
+  {
+    "id": 259,
+    "type": "sentence",
+    "text": "Motoki Ohmori doesn't like to (    ) themselves with others.",
+    "options": [
+      "declare",
+      "prepare",
+      "repair",
+      "compare"
+    ],
+    "answer": 3,
+    "translation": "大森元貴は自分自身を他人と比較するのが好きではありません。",
+    "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
+  },
+  {
+    "id": 260,
+    "type": "sentence",
+    "text": "Hiroto Wakai wants to (    ) fans with unforgettable memories.",
+    "options": [
+      "decide",
+      "provide",
+      "divide",
+      "guide"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はファンに忘れられない思い出を提供したいと思っています。",
+    "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
+  },
+  {
+    "id": 261,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
+    "options": [
+      "supply",
+      "apply",
+      "rely",
+      "reply"
+    ],
+    "answer": 2,
+    "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
+  },
+  {
+    "id": 262,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
+    "options": [
+      "effort",
+      "reward",
+      "afford",
+      "record"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
+  },
+  {
+    "id": 263,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
+    "options": [
+      "prevent",
+      "event",
+      "present",
+      "invent"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
+    "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
+  },
+  {
+    "id": 264,
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
+    "options": [
+      "qualify",
+      "terrify",
+      "modify",
+      "satisfy"
+    ],
+    "answer": 3,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
+    "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
+  },
+  {
+    "id": 265,
+    "type": "sentence",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
+    "options": [
+      "similar",
+      "popular",
+      "familiar",
+      "regular"
+    ],
+    "answer": 2,
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
+    "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
+  },
+  {
+    "id": 266,
+    "type": "sentence",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
+    "options": [
+      "confident",
+      "convenient",
+      "excellent",
+      "current"
+    ],
+    "answer": 1,
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
+    "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
+  },
+  {
+    "id": 267,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa has been very (    ) since moving out of the parents' house.",
+    "options": [
+      "independent",
+      "confident",
+      "silent",
+      "dependent"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は実家を出て以来、とても自立しています。",
+    "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
+  },
+  {
+    "id": 268,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE likes to cook dishes from (    ) countries.",
     "options": [
       "curious",
       "various",
@@ -1214,184 +3748,1276 @@ const questionBank = [
       "serious"
     ],
     "answer": 1,
-    "translation": "藤澤涼架は様々な国の料理を作るのが好きです。",
+    "translation": "ミセスグリーンアップルは様々な国の料理を作るのが好きです。",
     "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
   },
   {
-    "id": 88,
+    "id": 269,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
     "options": [
       "furious",
-      "serious",
+      "nervous",
       "curious",
-      "nervous"
+      "serious"
     ],
     "answer": 2,
     "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
     "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
   },
   {
-    "id": 89,
+    "id": 270,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE was not (    ) of the time and stayed up late playing games.",
+    "text": "The members of Mrs. GREEN APPLE were not (    ) of the time and stayed up late playing games.",
     "options": [
+      "awake",
       "alike",
       "away",
-      "aware",
-      "awake"
+      "aware"
     ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルは時間に気付かず、夜遅くまでゲームをして起きていました。",
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーは時間に気付かず、夜遅くまでゲームをして起きていました。",
     "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
   },
   {
-    "id": 90,
+    "id": 271,
     "type": "sentence",
-    "text": "That are (    ) what The members of Mrs. GREEN APPLE wanted to say.",
+    "text": "That is (    ) what Motoki Ohmori wanted to say.",
     "options": [
-      "nearly",
       "mostly",
+      "nearly",
       "hardly",
       "exactly"
     ],
     "answer": 3,
-    "translation": "それはまさにミセスグリーンアップルのメンバーが言いたかったことです。",
+    "translation": "それはまさに大森元貴が言いたかったことです。",
     "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
   },
   {
-    "id": 91,
+    "id": 272,
     "type": "sentence",
-    "text": "Motoki Ohmori (    ) visits that small cafe in the afternoon.",
+    "text": "Hiroto Wakai (    ) visits that small cafe in the afternoon.",
     "options": [
-      "rarely",
+      "suddenly",
       "frequently",
-      "recently",
-      "suddenly"
+      "rarely",
+      "recently"
     ],
     "answer": 1,
-    "translation": "大森元貴は午後によくその小さなカフェを訪れます。",
+    "translation": "若井滉斗は午後によくその小さなカフェを訪れます。",
     "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
   },
   {
-    "id": 92,
+    "id": 273,
     "type": "sentence",
-    "text": "Hiroto Wakai's singing voice (    ) became stronger over the years.",
+    "text": "Ryoka Fujisawa's singing voice (    ) became stronger over the years.",
     "options": [
-      "gradually",
       "naturally",
       "actually",
+      "gradually",
       "usually"
     ],
-    "answer": 0,
-    "translation": "若井滉斗の歌声は年月を経て徐々に力強くなりました。",
+    "answer": 2,
+    "translation": "藤澤涼架の歌声は年月を経て徐々に力強くなりました。",
     "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
   },
   {
-    "id": 93,
+    "id": 274,
     "type": "sentence",
-    "text": "When Ryoka Fujisawa heard the news, they (    ) called their family.",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
     "options": [
-      "completely",
       "extremely",
+      "completely",
       "immediately",
       "unfortunately"
     ],
     "answer": 2,
-    "translation": "藤澤涼架はそのニュースを聞いた時、すぐに家族に電話しました。",
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
     "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
   },
   {
-    "id": 94,
+    "id": 275,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
     "options": [
       "especially",
-      "specially",
+      "specifically",
       "eventually",
-      "specifically"
+      "specially"
     ],
     "answer": 0,
     "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
     "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
   },
   {
-    "id": 95,
+    "id": 276,
     "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they feels (    ) for making the fans happy.",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they feel (    ) for making the fans happy.",
     "options": [
-      "possible",
       "responsible",
       "terrible",
-      "flexible"
+      "flexible",
+      "possible"
     ],
-    "answer": 1,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはファンを幸せにすることに責任を感じています。",
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らはファンを幸せにすることに責任を感じています。",
     "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
   },
   {
-    "id": 96,
+    "id": 277,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE were not (    ) for the interview yesterday.",
+    "text": "Motoki Ohmori was not (    ) for the interview yesterday.",
     "options": [
+      "suitable",
       "capable",
-      "available",
       "valuable",
-      "suitable"
+      "available"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーは昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
+    "answer": 3,
+    "translation": "大森元貴は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
     "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
   },
   {
-    "id": 97,
+    "id": 278,
     "type": "sentence",
-    "text": "Motoki Ohmori finally managed to (    ) how to use the new synthesizer.",
+    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
     "options": [
       "point out",
+      "carry out",
       "figure out",
-      "turn out",
-      "carry out"
+      "turn out"
     ],
-    "answer": 1,
-    "translation": "大森元貴はついに新しいシンセサイザーの使い方を理解することができました。",
+    "answer": 2,
+    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
     "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
   },
   {
-    "id": 98,
+    "id": 279,
     "type": "sentence",
-    "text": "The song Hiroto Wakai wrote casually (    ) to be a massive hit.",
+    "text": "The song Ryoka Fujisawa wrote casually (    ) to be a massive hit.",
     "options": [
-      "break out",
-      "run out",
       "find out",
-      "turn out"
+      "run out",
+      "turn out",
+      "break out"
     ],
-    "answer": 3,
-    "translation": "若井滉斗が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "answer": 2,
+    "translation": "藤澤涼架が何気なく書いた曲が、大ヒットであることが判明しました。",
     "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
   },
   {
-    "id": 99,
+    "id": 280,
     "type": "sentence",
-    "text": "The success of the live tour will (    ) teamwork, according to Ryoka Fujisawa.",
+    "text": "The success of the live tour will (    ) teamwork, according to Mrs. GREEN APPLE.",
     "options": [
-      "depend on",
       "rely on",
-      "focus on",
-      "insist on"
+      "depend on",
+      "insist on",
+      "focus on"
     ],
-    "answer": 0,
-    "translation": "藤澤涼架によると、ライブツアーの成功はチームワークにかかっているとのことです。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルによると、ライブツアーの成功はチームワークにかかっているとのことです。",
     "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
   },
   {
-    "id": 100,
+    "id": 281,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE booked the flight tickets (    ) for the trip.",
     "options": [
       "in detail",
+      "in advance",
       "in particular",
+      "in general"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは旅行のために航空券を事前に予約しました。",
+    "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
+  },
+  {
+    "id": 282,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
+    "options": [
+      "make progress",
+      "make sure",
+      "make up",
+      "make sense"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
+    "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
+  },
+  {
+    "id": 283,
+    "type": "sentence",
+    "text": "Motoki Ohmori noticed that they had (    ) milk while making breakfast.",
+    "options": [
+      "get out of",
+      "keep out of",
+      "run out of",
+      "stay out of"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
+    "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
+  },
+  {
+    "id": 284,
+    "type": "sentence",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
+    "options": [
+      "take care",
+      "take pride",
+      "take place",
+      "take part"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
+    "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
+  },
+  {
+    "id": 285,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he is really (    ) meeting the fans again.",
+    "options": [
+      "look up to",
+      "look down on",
+      "look forward to",
+      "look out for"
+    ],
+    "answer": 2,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼はまたファンに会えるのを本当に楽しみにしています。",
+    "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
+  },
+  {
+    "id": 286,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE advised the members to (    ) the small details in the sound.",
+    "options": [
+      "catch sight of",
+      "pay attention to",
+      "take advantage of",
+      "get rid of"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
+    "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
+  },
+  {
+    "id": 287,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE knows how to politely (    ) difficult situations.",
+    "options": [
+      "put up with",
+      "come up with",
+      "keep up with",
+      "deal with"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
+    "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
+  },
+  {
+    "id": 288,
+    "type": "sentence",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
+    "options": [
+      "tradition",
+      "translation",
+      "transportation",
+      "transition"
+    ],
+    "answer": 0,
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
+  },
+  {
+    "id": 289,
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
+    "options": [
+      "certificate",
+      "celebration",
+      "candidate",
+      "customer"
+    ],
+    "answer": 2,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
+  },
+  {
+    "id": 290,
+    "type": "sentence",
+    "text": "Hiroto Wakai always treats the concert staff and every (    ) with great respect.",
+    "options": [
+      "employer",
+      "employee",
+      "manager",
+      "engineer"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
+  },
+  {
+    "id": 291,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
+    "options": [
+      "record",
+      "method",
+      "period",
+      "department"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
+  },
+  {
+    "id": 292,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE used their first (    ) to buy a gift for their parents.",
+    "options": [
+      "salary",
+      "sympathy",
+      "safety",
+      "society"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
+  },
+  {
+    "id": 293,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE had to (    ) that they forgot the lyrics for a moment during the live.",
+    "options": [
+      "admit",
+      "submit",
+      "permit",
+      "commit"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
+  },
+  {
+    "id": 294,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they never (    )s others when a mistake happens in the studio.",
+    "options": [
+      "frame",
+      "flame",
+      "claim",
+      "blame"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、スタジオでミスが起きた時、彼らは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
+  },
+  {
+    "id": 295,
+    "type": "sentence",
+    "text": "Motoki Ohmori had to (    ) the dinner reservation because the recording took longer.",
+    "options": [
+      "channel",
+      "cancel",
+      "tunnel",
+      "panel"
+    ],
+    "answer": 1,
+    "translation": "レコーディングが長引いたため、大森元貴は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
+  },
+  {
+    "id": 296,
+    "type": "sentence",
+    "text": "Hiroto Wakai tries to (    ) negative comments on the internet.",
+    "options": [
+      "explore",
+      "store",
+      "ignore",
+      "restore"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
+  },
+  {
+    "id": 297,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa used a ruler to (    ) the size of the new guitar case.",
+    "options": [
+      "treasure",
+      "measure",
+      "pleasure",
+      "leisure"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
+  },
+  {
+    "id": 298,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE donated money to an organization that (    )s stray animals.",
+    "options": [
+      "continue",
+      "value",
+      "argue",
+      "rescue"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
+  },
+  {
+    "id": 299,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) for the best ramen shop in the city tonight.",
+    "options": [
+      "reach",
+      "teach",
+      "search",
+      "catch"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
+  },
+  {
+    "id": 300,
+    "type": "sentence",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
+    "options": [
+      "burn",
+      "warn",
+      "learn",
+      "turn"
+    ],
+    "answer": 1,
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
+  },
+  {
+    "id": 301,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, Due to a (    ) of sleep, he drank three cups of coffee.",
+    "options": [
+      "rock",
+      "lack",
+      "luck",
+      "lock"
+    ],
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、睡眠不足のため、彼はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
+  },
+  {
+    "id": 302,
+    "type": "sentence",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
+    "options": [
+      "fee",
+      "tree",
+      "free",
+      "flee"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 303,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he believes that good (    ) is much more important than money.",
+    "options": [
+      "wealth",
+      "stealth",
+      "health",
+      "death"
+    ],
+    "answer": 0,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 304,
+    "type": "sentence",
+    "text": "Once Mrs. GREEN APPLE starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "tone",
+      "zone",
+      "stone",
+      "bone"
+    ],
+    "answer": 1,
+    "translation": "一度曲を書き始めると、ミセスグリーンアップルは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 305,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
+      "defy",
+      "deny",
+      "rely",
+      "reply"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
+  },
+  {
+    "id": 306,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE love to (    ) with friends and play board games.",
+    "options": [
+      "weather",
+      "bother",
+      "gather",
+      "father"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
+  },
+  {
+    "id": 307,
+    "type": "sentence",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
+    "options": [
+      "wire",
+      "fire",
+      "tire",
+      "hire"
+    ],
+    "answer": 3,
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
+  },
+  {
+    "id": 308,
+    "type": "sentence",
+    "text": "Hiroto Wakai thinks people should not (    ) others based solely on appearance.",
+    "options": [
+      "bridge",
+      "pledge",
+      "judge",
+      "edge"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
+  },
+  {
+    "id": 309,
+    "type": "sentence",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
+    "options": [
+      "hit",
+      "sit",
+      "knit",
+      "fit"
+    ],
+    "answer": 2,
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
+  },
+  {
+    "id": 310,
+    "type": "sentence",
+    "text": "Tired after the live, Mrs. GREEN APPLE tried to (    ) against the wall.",
+    "options": [
+      "clean",
+      "mean",
+      "bean",
+      "lean"
+    ],
+    "answer": 3,
+    "translation": "ライブの後で疲れていたので、ミセスグリーンアップルは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
+  },
+  {
+    "id": 311,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE uses a special case to (    ) the condition of the vintage guitar.",
+    "options": [
+      "deserve",
+      "observe",
+      "preserve",
+      "reserve"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
+  },
+  {
+    "id": 312,
+    "type": "sentence",
+    "text": "When The members of Mrs. GREEN APPLE started playing, all the nervousness seemed to (    ).",
+    "options": [
+      "banish",
+      "punish",
+      "finish",
+      "vanish"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
+  },
+  {
+    "id": 313,
+    "type": "sentence",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
+    "options": [
+      "ingredients",
+      "instructions",
+      "insects",
+      "instruments"
+    ],
+    "answer": 0,
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
+    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+  },
+  {
+    "id": 314,
+    "type": "sentence",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "options": [
+      "environment",
+      "experiment",
+      "employment",
+      "equipment"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+  },
+  {
+    "id": 315,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa fell asleep as a (    ) on the train.",
+    "options": [
+      "stranger",
+      "manager",
+      "messenger",
+      "passenger"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架は電車の乗客として眠ってしまいました。",
+    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+  },
+  {
+    "id": 316,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
+    "options": [
+      "destination",
+      "decision",
+      "department",
+      "description"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
+    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+  },
+  {
+    "id": 317,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "options": [
+      "anxiety",
+      "variety",
+      "safety",
+      "society"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
+    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+  },
+  {
+    "id": 318,
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
+    "options": [
+      "advantage",
+      "adventure",
+      "advice",
+      "advance"
+    ],
+    "answer": 0,
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
+    "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
+  },
+  {
+    "id": 319,
+    "type": "sentence",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
+    "options": [
+      "opposition",
+      "operation",
+      "opportunity",
+      "opinion"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
+    "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
+  },
+  {
+    "id": 320,
+    "type": "sentence",
+    "text": "The (    ) cheered loudly when Hiroto Wakai appeared on stage.",
+    "options": [
+      "absence",
+      "audience",
+      "appearance",
+      "attendance"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
+  },
+  {
+    "id": 321,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
+    "options": [
+      "neighborhood",
+      "brotherhood",
+      "livelihood",
+      "childhood"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
+    "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
+  },
+  {
+    "id": 322,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
+    "options": [
+      "degree",
+      "disagree",
+      "decree",
+      "agree"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
+    "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
+  },
+  {
+    "id": 323,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
+    "options": [
+      "feature",
+      "temperature",
+      "creature",
+      "literature"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
+    "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
+  },
+  {
+    "id": 324,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
+    "options": [
+      "scenery",
+      "screen",
+      "science",
+      "scene"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
+    "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
+  },
+  {
+    "id": 325,
+    "type": "sentence",
+    "text": "Motoki Ohmori eats healthy food to prevent (    ).",
+    "options": [
+      "disease",
+      "deceive",
+      "decrease",
+      "desire"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
+    "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
+  },
+  {
+    "id": 326,
+    "type": "sentence",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
+    "options": [
+      "costume",
+      "customer",
+      "custom",
+      "castle"
+    ],
+    "answer": 2,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
+    "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
+  },
+  {
+    "id": 327,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa spent a large (    ) of money on new clothes.",
+    "options": [
+      "account",
+      "amount",
+      "announce",
+      "allowance"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は新しい服に多額のお金を使いました。",
+    "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
+  },
+  {
+    "id": 328,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
+    "options": [
+      "believe",
+      "receive",
+      "deceive",
+      "achieve"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
+  },
+  {
+    "id": 329,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE never (    )s about being too busy.",
+    "options": [
+      "remain",
+      "complain",
+      "explain",
+      "contain"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは忙しすぎることについて決して不平を言いません。",
+    "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
+  },
+  {
+    "id": 330,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE's smile always (    )s the fans.",
+    "options": [
+      "encourage",
+      "discourage",
+      "engage",
+      "enlarge"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーの笑顔はいつもファンを勇気づけます。",
+    "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
+  },
+  {
+    "id": 331,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he practices every day to (    ) guitar skills.",
+    "options": [
+      "approve",
+      "prove",
+      "improve",
+      "remove"
+    ],
+    "answer": 2,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼はギターのスキルを向上させるために毎日練習しています。",
+    "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
+  },
+  {
+    "id": 332,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
+    "options": [
+      "suggest",
+      "request",
+      "invest",
+      "digest"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
+  },
+  {
+    "id": 333,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
+    "options": [
+      "relax",
+      "reduce",
+      "replace",
+      "place"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
+    "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
+  },
+  {
+    "id": 334,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
+    "options": [
+      "organize",
+      "memorize",
+      "realize",
+      "recognize"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
+  },
+  {
+    "id": 335,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they will (    ) in a charity marathon next month.",
+    "options": [
+      "hesitate",
+      "participate",
+      "calculate",
+      "anticipate"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは来月チャリティーマラソンに参加します。",
+    "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
+  },
+  {
+    "id": 336,
+    "type": "sentence",
+    "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
+    "options": [
+      "retire",
+      "require",
+      "acquire",
+      "inquire"
+    ],
+    "answer": 1,
+    "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
+    "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
+  },
+  {
+    "id": 337,
+    "type": "sentence",
+    "text": "Motoki Ohmori doesn't like to (    ) themselves with others.",
+    "options": [
+      "repair",
+      "compare",
+      "declare",
+      "prepare"
+    ],
+    "answer": 1,
+    "translation": "大森元貴は自分自身を他人と比較するのが好きではありません。",
+    "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
+  },
+  {
+    "id": 338,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he wants to (    ) fans with unforgettable memories.",
+    "options": [
+      "provide",
+      "decide",
+      "divide",
+      "guide"
+    ],
+    "answer": 0,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はファンに忘れられない思い出を提供したいと思っています。",
+    "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
+  },
+  {
+    "id": 339,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he can always (    ) on the other members when things get tough.",
+    "options": [
+      "reply",
+      "apply",
+      "supply",
+      "rely"
+    ],
+    "answer": 3,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、困難な時、彼はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
+  },
+  {
+    "id": 340,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
+    "options": [
+      "record",
+      "effort",
+      "reward",
+      "afford"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
+  },
+  {
+    "id": 341,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they wore a warm coat to (    ) catching a cold.",
+    "options": [
+      "event",
+      "invent",
+      "prevent",
+      "present"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは風邪をひくのを防ぐために暖かいコートを着ました。",
+    "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
+  },
+  {
+    "id": 342,
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
+    "options": [
+      "terrify",
+      "qualify",
+      "satisfy",
+      "modify"
+    ],
+    "answer": 2,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
+    "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
+  },
+  {
+    "id": 343,
+    "type": "sentence",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
+    "options": [
+      "similar",
+      "familiar",
+      "popular",
+      "regular"
+    ],
+    "answer": 1,
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
+    "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
+  },
+  {
+    "id": 344,
+    "type": "sentence",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
+    "options": [
+      "current",
+      "confident",
+      "excellent",
+      "convenient"
+    ],
+    "answer": 3,
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
+    "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
+  },
+  {
+    "id": 345,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he has been very (    ) since moving out of the parents' house.",
+    "options": [
+      "silent",
+      "confident",
+      "dependent",
+      "independent"
+    ],
+    "answer": 3,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は実家を出て以来、とても自立しています。",
+    "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
+  },
+  {
+    "id": 346,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE likes to cook dishes from (    ) countries.",
+    "options": [
+      "serious",
+      "obvious",
+      "curious",
+      "various"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは様々な国の料理を作るのが好きです。",
+    "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
+  },
+  {
+    "id": 347,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
+    "options": [
+      "nervous",
+      "furious",
+      "curious",
+      "serious"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
+    "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
+  },
+  {
+    "id": 348,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were not (    ) of the time and stayed up late playing games.",
+    "options": [
+      "awake",
+      "aware",
+      "away",
+      "alike"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルのメンバーは時間に気付かず、夜遅くまでゲームをして起きていました。",
+    "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
+  },
+  {
+    "id": 349,
+    "type": "sentence",
+    "text": "That is (    ) what Motoki Ohmori wanted to say.",
+    "options": [
+      "exactly",
+      "mostly",
+      "hardly",
+      "nearly"
+    ],
+    "answer": 0,
+    "translation": "それはまさに大森元貴が言いたかったことです。",
+    "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
+  },
+  {
+    "id": 350,
+    "type": "sentence",
+    "text": "Hiroto Wakai (    ) visits that small cafe in the afternoon.",
+    "options": [
+      "rarely",
+      "suddenly",
+      "frequently",
+      "recently"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は午後によくその小さなカフェを訪れます。",
+    "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
+  },
+  {
+    "id": 351,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he's singing voice (    ) became stronger over the years.",
+    "options": [
+      "usually",
+      "naturally",
+      "actually",
+      "gradually"
+    ],
+    "answer": 3,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼の歌声は年月を経て徐々に力強くなりました。",
+    "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
+  },
+  {
+    "id": 352,
+    "type": "sentence",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
+    "options": [
+      "completely",
+      "immediately",
+      "extremely",
+      "unfortunately"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
+    "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
+  },
+  {
+    "id": 353,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
+    "options": [
+      "eventually",
+      "specially",
+      "specifically",
+      "especially"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
+    "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
+  },
+  {
+    "id": 354,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE feel (    ) for making the fans happy.",
+    "options": [
+      "possible",
+      "terrible",
+      "responsible",
+      "flexible"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルのメンバーはファンを幸せにすることに責任を感じています。",
+    "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
+  },
+  {
+    "id": 355,
+    "type": "sentence",
+    "text": "Motoki Ohmori was not (    ) for the interview yesterday.",
+    "options": [
+      "capable",
+      "valuable",
+      "available",
+      "suitable"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
+    "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
+  },
+  {
+    "id": 356,
+    "type": "sentence",
+    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
+    "options": [
+      "point out",
+      "turn out",
+      "figure out",
+      "carry out"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
+    "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
+  },
+  {
+    "id": 357,
+    "type": "sentence",
+    "text": "The song Ryoka Fujisawa wrote casually (    ) to be a massive hit.",
+    "options": [
+      "break out",
+      "find out",
+      "turn out",
+      "run out"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
+  },
+  {
+    "id": 358,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, The success of the live tour will (    ) teamwork, according to they.",
+    "options": [
+      "insist on",
+      "focus on",
+      "rely on",
+      "depend on"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らによると、ライブツアーの成功はチームワークにかかっているとのことです。",
+    "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
+  },
+  {
+    "id": 359,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE booked the flight tickets (    ) for the trip.",
+    "options": [
+      "in particular",
+      "in detail",
       "in general",
       "in advance"
     ],
@@ -1400,989 +5026,597 @@ const questionBank = [
     "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
   },
   {
-    "id": 101,
+    "id": 360,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
+    "text": "The members of Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
     "options": [
+      "make progress",
       "make sense",
       "make sure",
-      "make up",
-      "make progress"
+      "make up"
     ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルのメンバーは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
     "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
   },
   {
-    "id": 102,
-    "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE noticed that they had (    ) milk while making breakfast.",
+    "id": 361,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he noticed that they had (    ) milk while making breakfast.",
     "options": [
       "get out of",
       "stay out of",
-      "keep out of",
-      "run out of"
+      "run out of",
+      "keep out of"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルのメンバーは朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
+    "answer": 2,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
     "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
   },
   {
-    "id": 103,
+    "id": 362,
     "type": "sentence",
-    "text": "The music festival where Motoki Ohmori will perform is going to (    ) in August.",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
     "options": [
+      "take care",
       "take place",
-      "take pride",
       "take part",
-      "take care"
+      "take pride"
     ],
-    "answer": 0,
-    "translation": "大森元貴が出演する音楽フェスは8月に開催される予定です。",
+    "answer": 1,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
     "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
   },
   {
-    "id": 104,
+    "id": 363,
     "type": "sentence",
-    "text": "Hiroto Wakai is really (    ) meeting the fans again.",
+    "text": "Ryoka Fujisawa is really (    ) meeting the fans again.",
     "options": [
+      "look down on",
       "look forward to",
       "look up to",
-      "look out for",
-      "look down on"
+      "look out for"
     ],
-    "answer": 0,
-    "translation": "若井滉斗はまたファンに会えるのを本当に楽しみにしています。",
+    "answer": 1,
+    "translation": "藤澤涼架はまたファンに会えるのを本当に楽しみにしています。",
     "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
   },
   {
-    "id": 105,
+    "id": 364,
     "type": "sentence",
-    "text": "Ryoka Fujisawa advised the members to (    ) the small details in the sound.",
+    "text": "Mrs. GREEN APPLE advised the members to (    ) the small details in the sound.",
     "options": [
-      "pay attention to",
+      "catch sight of",
       "get rid of",
       "take advantage of",
-      "catch sight of"
+      "pay attention to"
     ],
-    "answer": 0,
-    "translation": "藤澤涼架はメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
+    "answer": 3,
+    "translation": "ミセスグリーンアップルはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
     "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
   },
   {
-    "id": 106,
+    "id": 365,
     "type": "sentence",
     "text": "Mrs. GREEN APPLE knows how to politely (    ) difficult situations.",
     "options": [
       "deal with",
-      "put up with",
+      "come up with",
       "keep up with",
-      "come up with"
+      "put up with"
     ],
     "answer": 0,
     "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
     "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
   },
   {
-    "id": 107,
+    "id": 366,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE bought some fresh (    ) to cook pasta.",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
     "options": [
-      "insects",
-      "instruments",
-      "instructions",
-      "ingredients"
+      "translation",
+      "tradition",
+      "transition",
+      "transportation"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルはパスタを作るために新鮮な材料をいくつか買いました。",
-    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+    "answer": 1,
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
   },
   {
-    "id": 108,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they ordered new (    ) for the home studio.",
+    "id": 367,
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
     "options": [
-      "employment",
-      "environment",
-      "equipment",
-      "experiment"
+      "candidate",
+      "celebration",
+      "certificate",
+      "customer"
     ],
-    "answer": 2,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは自宅スタジオのために新しい機材を注文しました。",
-    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+    "answer": 0,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
   },
   {
-    "id": 109,
+    "id": 368,
     "type": "sentence",
-    "text": "Motoki Ohmori fell asleep as a (    ) on the train.",
+    "text": "Hiroto Wakai always treats the concert staff and every (    ) with great respect.",
     "options": [
-      "passenger",
-      "stranger",
+      "employer",
       "manager",
-      "messenger"
-    ],
-    "answer": 0,
-    "translation": "大森元貴は電車の乗客として眠ってしまいました。",
-    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
-  },
-  {
-    "id": 110,
-    "type": "sentence",
-    "text": "Hiroto Wakai finally arrived at the (    ) after a long drive.",
-    "options": [
-      "destination",
-      "decision",
-      "description",
-      "department"
-    ],
-    "answer": 0,
-    "translation": "若井滉斗は長時間のドライブの末、ついに目的地に到着しました。",
-    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
-  },
-  {
-    "id": 111,
-    "type": "sentence",
-    "text": "Ryoka Fujisawa listens to a wide (    ) of music genres.",
-    "options": [
-      "society",
-      "anxiety",
-      "variety",
-      "safety"
+      "employee",
+      "engineer"
     ],
     "answer": 2,
-    "translation": "藤澤涼架は幅広いジャンルの音楽を聴きます。",
-    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+    "translation": "若井滉斗はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
   },
   {
-    "id": 112,
+    "id": 369,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
+    "options": [
+      "department",
+      "record",
+      "method",
+      "period"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
+  },
+  {
+    "id": 370,
     "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, One (    ) of living in Tokyo is that they can easily go to many concerts.",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they used their first (    ) to buy a gift for their parents.",
     "options": [
-      "advantage",
-      "adventure",
-      "advance",
-      "advice"
-    ],
-    "answer": 0,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、東京に住む一つの利点は、彼らがたくさんのコンサートに簡単に行けることです。",
-    "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
-  },
-  {
-    "id": 113,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE missed the (    ) to take a walk in the park because of the rain.",
-    "options": [
-      "operation",
-      "opinion",
-      "opportunity",
-      "opposition"
-    ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルは雨のせいで公園を散歩する機会を逃しました。",
-    "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
-  },
-  {
-    "id": 114,
-    "type": "sentence",
-    "text": "The (    ) cheered loudly when The members of Mrs. GREEN APPLE appeared on stage.",
-    "options": [
-      "appearance",
-      "attendance",
-      "absence",
-      "audience"
-    ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルのメンバーがステージに現れた時、観客は大きな声で歓声を上げました。",
-    "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
-  },
-  {
-    "id": 115,
-    "type": "sentence",
-    "text": "Motoki Ohmori often takes pictures while walking around the (    ).",
-    "options": [
-      "childhood",
-      "livelihood",
-      "brotherhood",
-      "neighborhood"
-    ],
-    "answer": 3,
-    "translation": "大森元貴は近所を散歩しながらよく写真を撮ります。",
-    "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
-  },
-  {
-    "id": 116,
-    "type": "sentence",
-    "text": "Hiroto Wakai felt a certain (    ) of nervousness before the live broadcast.",
-    "options": [
-      "degree",
-      "disagree",
-      "agree",
-      "decree"
-    ],
-    "answer": 0,
-    "translation": "若井滉斗は生放送の前に、ある程度の緊張を感じました。",
-    "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
-  },
-  {
-    "id": 117,
-    "type": "sentence",
-    "text": "Ryoka Fujisawa caught a cold because the (    ) dropped suddenly.",
-    "options": [
-      "literature",
-      "temperature",
-      "creature",
-      "feature"
+      "sympathy",
+      "salary",
+      "safety",
+      "society"
     ],
     "answer": 1,
-    "translation": "藤澤涼架は気温が急に下がったため風邪をひきました。",
-    "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
   },
   {
-    "id": 118,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they was deeply moved by the beautiful (    ) of the mountains.",
-    "options": [
-      "scenery",
-      "science",
-      "scene",
-      "screen"
-    ],
-    "answer": 0,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは山の美しい風景に深く感動しました。",
-    "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
-  },
-  {
-    "id": 119,
+    "id": 371,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE eats healthy food to prevent (    ).",
+    "text": "Mrs. GREEN APPLE had to (    ) that they forgot the lyrics for a moment during the live.",
     "options": [
-      "deceive",
-      "desire",
-      "decrease",
-      "disease"
+      "permit",
+      "commit",
+      "submit",
+      "admit"
     ],
     "answer": 3,
-    "translation": "ミセスグリーンアップルは病気を防ぐために健康的な食べ物を食べます。",
-    "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
+    "translation": "ミセスグリーンアップルはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
   },
   {
-    "id": 120,
+    "id": 372,
     "type": "sentence",
-    "text": "It are a (    ) for The members of Mrs. GREEN APPLE to drink coffee every morning.",
+    "text": "The members of Mrs. GREEN APPLE never (    )s others when a mistake happens in the studio.",
     "options": [
-      "castle",
-      "customer",
-      "custom",
-      "costume"
+      "blame",
+      "flame",
+      "claim",
+      "frame"
     ],
-    "answer": 2,
-    "translation": "毎朝コーヒーを飲むのがミセスグリーンアップルのメンバーの習慣です。",
-    "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
+    "answer": 0,
+    "translation": "スタジオでミスが起きた時、ミセスグリーンアップルのメンバーは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
   },
   {
-    "id": 121,
-    "type": "sentence",
-    "text": "Motoki Ohmori spent a large (    ) of money on new clothes.",
+    "id": 373,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he had to (    ) the dinner reservation because the recording took longer.",
     "options": [
-      "allowance",
-      "announce",
-      "account",
-      "amount"
+      "tunnel",
+      "channel",
+      "panel",
+      "cancel"
     ],
     "answer": 3,
-    "translation": "大森元貴は新しい服に多額のお金を使いました。",
-    "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、レコーディングが長引いたため、彼は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
   },
   {
-    "id": 122,
+    "id": 374,
     "type": "sentence",
-    "text": "Hiroto Wakai worked hard to (    ) the goal of making a great album.",
+    "text": "Hiroto Wakai tries to (    ) negative comments on the internet.",
     "options": [
-      "deceive",
-      "receive",
-      "believe",
-      "achieve"
+      "explore",
+      "store",
+      "restore",
+      "ignore"
     ],
     "answer": 3,
-    "translation": "若井滉斗は素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
-    "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
+    "translation": "若井滉斗はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
   },
   {
-    "id": 123,
-    "type": "sentence",
-    "text": "Ryoka Fujisawa never (    )s about being too busy.",
-    "options": [
-      "remain",
-      "explain",
-      "complain",
-      "contain"
-    ],
-    "answer": 2,
-    "translation": "藤澤涼架は忙しすぎることについて決して不平を言いません。",
-    "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
-  },
-  {
-    "id": 124,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE's smile always (    )s the fans.",
-    "options": [
-      "enlarge",
-      "discourage",
-      "encourage",
-      "engage"
-    ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルの笑顔はいつもファンを勇気づけます。",
-    "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
-  },
-  {
-    "id": 125,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE practices every day to (    ) guitar skills.",
-    "options": [
-      "approve",
-      "remove",
-      "improve",
-      "prove"
-    ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルはギターのスキルを向上させるために毎日練習しています。",
-    "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
-  },
-  {
-    "id": 126,
-    "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE (    )ed that they should go eat ramen after the rehearsal.",
-    "options": [
-      "suggest",
-      "request",
-      "invest",
-      "digest"
-    ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルのメンバーはリハーサルの後にラーメンを食べに行くべきだと提案しました。",
-    "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
-  },
-  {
-    "id": 127,
-    "type": "sentence",
-    "text": "Motoki Ohmori needs to (    ) the broken strings on the guitar.",
-    "options": [
-      "replace",
-      "place",
-      "reduce",
-      "relax"
-    ],
-    "answer": 0,
-    "translation": "大森元貴はギターの切れた弦を交換する必要があります。",
-    "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
-  },
-  {
-    "id": 128,
+    "id": 375,
     "type": "conversation",
-    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he was easily (    )d by fans while shopping at the mall.",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he used a ruler to (    ) the size of the new guitar case.",
     "options": [
-      "organize",
-      "recognize",
-      "realize",
-      "memorize"
+      "leisure",
+      "measure",
+      "pleasure",
+      "treasure"
     ],
     "answer": 1,
-    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はショッピングモールで買い物中にファンにすぐ気付かれました。",
-    "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
   },
   {
-    "id": 129,
+    "id": 376,
     "type": "sentence",
-    "text": "Ryoka Fujisawa will (    ) in a charity marathon next month.",
+    "text": "Mrs. GREEN APPLE donated money to an organization that (    )s stray animals.",
     "options": [
-      "anticipate",
-      "calculate",
-      "participate",
-      "hesitate"
+      "continue",
+      "value",
+      "rescue",
+      "argue"
     ],
     "answer": 2,
-    "translation": "藤澤涼架は来月チャリティーマラソンに参加します。",
-    "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
+    "translation": "ミセスグリーンアップルは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
   },
   {
-    "id": 130,
+    "id": 377,
     "type": "sentence",
-    "text": "Writing a good song (    )s a lot of concentration for Mrs. GREEN APPLE.",
+    "text": "Mrs. GREEN APPLE will (    ) for the best ramen shop in the city tonight.",
     "options": [
-      "inquire",
-      "require",
-      "acquire",
-      "retire"
+      "reach",
+      "search",
+      "catch",
+      "teach"
     ],
     "answer": 1,
-    "translation": "良い曲を書くことはミセスグリーンアップルにとって多くの集中力を必要とします。",
-    "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
+    "translation": "ミセスグリーンアップルは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
   },
   {
-    "id": 131,
+    "id": 378,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE doesn't like to (    ) themselves with others.",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
     "options": [
-      "compare",
-      "declare",
-      "prepare",
-      "repair"
+      "warn",
+      "burn",
+      "learn",
+      "turn"
     ],
     "answer": 0,
-    "translation": "ミセスグリーンアップルは自分自身を他人と比較するのが好きではありません。",
-    "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
   },
   {
-    "id": 132,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they want to (    ) fans with unforgettable memories.",
+    "id": 379,
+    "type": "sentence",
+    "text": "Due to a (    ) of sleep, Motoki Ohmori drank three cups of coffee.",
     "options": [
-      "decide",
-      "provide",
-      "divide",
-      "guide"
+      "luck",
+      "lack",
+      "rock",
+      "lock"
     ],
     "answer": 1,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らはファンに忘れられない思い出を提供したいと思っています。",
-    "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
+    "translation": "睡眠不足のため、大森元貴はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
   },
   {
-    "id": 133,
+    "id": 380,
     "type": "sentence",
-    "text": "Motoki Ohmori can always (    ) on the other members when things get tough.",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
     "options": [
-      "apply",
+      "free",
+      "fee",
+      "tree",
+      "flee"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 381,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa believes that good (    ) is much more important than money.",
+    "options": [
+      "stealth",
+      "death",
+      "wealth",
+      "health"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 382,
+    "type": "sentence",
+    "text": "Once Mrs. GREEN APPLE starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "bone",
+      "tone",
+      "zone",
+      "stone"
+    ],
+    "answer": 2,
+    "translation": "一度曲を書き始めると、ミセスグリーンアップルは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 383,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
       "rely",
+      "defy",
       "reply",
-      "supply"
-    ],
-    "answer": 1,
-    "translation": "困難な時、大森元貴はいつも他のメンバーに頼ることができます。",
-    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事をする）、apply（適用する・申し込む）、supply（供給する）。"
-  },
-  {
-    "id": 134,
-    "type": "sentence",
-    "text": "Hiroto Wakai couldn't (    ) to buy that expensive instrument years ago.",
-    "options": [
-      "reward",
-      "effort",
-      "afford",
-      "record"
-    ],
-    "answer": 2,
-    "translation": "若井滉斗は何年も前はあの高価な楽器を買う余裕がありませんでした。",
-    "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
-  },
-  {
-    "id": 135,
-    "type": "sentence",
-    "text": "Ryoka Fujisawa wore a warm coat to (    ) catching a cold.",
-    "options": [
-      "event",
-      "invent",
-      "prevent",
-      "present"
-    ],
-    "answer": 2,
-    "translation": "藤澤涼架は風邪をひくのを防ぐために暖かいコートを着ました。",
-    "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
-  },
-  {
-    "id": 136,
-    "type": "sentence",
-    "text": "A simple meal of rice and miso soup is enough to (    ) Mrs. GREEN APPLE.",
-    "options": [
-      "qualify",
-      "modify",
-      "satisfy",
-      "terrify"
-    ],
-    "answer": 2,
-    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルを満足させるのに十分です。",
-    "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
-  },
-  {
-    "id": 137,
-    "type": "sentence",
-    "text": "The melody of that song is very (    ) to Mrs. GREEN APPLE.",
-    "options": [
-      "popular",
-      "similar",
-      "familiar",
-      "regular"
-    ],
-    "answer": 2,
-    "translation": "その曲のメロディーはミセスグリーンアップルにとってとても馴染みがあります。",
-    "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
-  },
-  {
-    "id": 138,
-    "type": "sentence",
-    "text": "Living near the station are very (    ) for The members of Mrs. GREEN APPLE.",
-    "options": [
-      "excellent",
-      "current",
-      "convenient",
-      "confident"
-    ],
-    "answer": 2,
-    "translation": "駅の近くに住むことはミセスグリーンアップルのメンバーにとってとても便利です。",
-    "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
-  },
-  {
-    "id": 139,
-    "type": "sentence",
-    "text": "Motoki Ohmori has been very (    ) since moving out of the parents' house.",
-    "options": [
-      "silent",
-      "confident",
-      "independent",
-      "dependent"
-    ],
-    "answer": 2,
-    "translation": "大森元貴は実家を出て以来、とても自立しています。",
-    "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
-  },
-  {
-    "id": 140,
-    "type": "sentence",
-    "text": "Hiroto Wakai likes to cook dishes from (    ) countries.",
-    "options": [
-      "various",
-      "obvious",
-      "curious",
-      "serious"
-    ],
-    "answer": 0,
-    "translation": "若井滉斗は様々な国の料理を作るのが好きです。",
-    "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
-  },
-  {
-    "id": 141,
-    "type": "sentence",
-    "text": "Ryoka Fujisawa is always (    ) about new fashion trends.",
-    "options": [
-      "nervous",
-      "serious",
-      "furious",
-      "curious"
+      "deny"
     ],
     "answer": 3,
-    "translation": "藤澤涼架はいつも新しいファッショントレンドに好奇心を持っています。",
-    "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
+    "translation": "ミセスグリーンアップルは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
   },
   {
-    "id": 142,
+    "id": 384,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE was not (    ) of the time and stayed up late playing games.",
+    "text": "The members of Mrs. GREEN APPLE love to (    ) with friends and play board games.",
     "options": [
-      "aware",
-      "away",
-      "alike",
-      "awake"
-    ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルは時間に気付かず、夜遅くまでゲームをして起きていました。",
-    "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
-  },
-  {
-    "id": 143,
-    "type": "sentence",
-    "text": "That is (    ) what Mrs. GREEN APPLE wanted to say.",
-    "options": [
-      "nearly",
-      "exactly",
-      "hardly",
-      "mostly"
-    ],
-    "answer": 1,
-    "translation": "それはまさにミセスグリーンアップルが言いたかったことです。",
-    "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
-  },
-  {
-    "id": 144,
-    "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE (    ) visits that small cafe in the afternoon.",
-    "options": [
-      "suddenly",
-      "rarely",
-      "frequently",
-      "recently"
-    ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルのメンバーは午後によくその小さなカフェを訪れます。",
-    "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
-  },
-  {
-    "id": 145,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he's singing voice (    ) became stronger over the years.",
-    "options": [
-      "naturally",
-      "gradually",
-      "actually",
-      "usually"
-    ],
-    "answer": 1,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼の歌声は年月を経て徐々に力強くなりました。",
-    "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
-  },
-  {
-    "id": 146,
-    "type": "sentence",
-    "text": "When Hiroto Wakai heard the news, they (    ) called their family.",
-    "options": [
-      "unfortunately",
-      "completely",
-      "extremely",
-      "immediately"
+      "bother",
+      "father",
+      "weather",
+      "gather"
     ],
     "answer": 3,
-    "translation": "若井滉斗はそのニュースを聞いた時、すぐに家族に電話しました。",
-    "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
+    "translation": "ミセスグリーンアップルのメンバーは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
   },
   {
-    "id": 147,
-    "type": "conversation",
-    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he loves all animals, but (    ) dogs.",
-    "options": [
-      "especially",
-      "specially",
-      "specifically",
-      "eventually"
-    ],
-    "answer": 0,
-    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼はすべての動物が好きですが、特に犬が好きです。",
-    "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
-  },
-  {
-    "id": 148,
+    "id": 385,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE feels (    ) for making the fans happy.",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
     "options": [
-      "flexible",
-      "responsible",
-      "terrible",
-      "possible"
+      "tire",
+      "hire",
+      "fire",
+      "wire"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルはファンを幸せにすることに責任を感じています。",
-    "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
   },
   {
-    "id": 149,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they was not (    ) for the interview yesterday.",
-    "options": [
-      "available",
-      "capable",
-      "suitable",
-      "valuable"
-    ],
-    "answer": 0,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
-    "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
-  },
-  {
-    "id": 150,
+    "id": 386,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE finally managed to (    ) how to use the new synthesizer.",
+    "text": "Hiroto Wakai thinks people should not (    ) others based solely on appearance.",
     "options": [
-      "figure out",
-      "point out",
-      "turn out",
-      "carry out"
-    ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルのメンバーはついに新しいシンセサイザーの使い方を理解することができました。",
-    "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
-  },
-  {
-    "id": 151,
-    "type": "sentence",
-    "text": "The song Motoki Ohmori wrote casually (    ) to be a massive hit.",
-    "options": [
-      "find out",
-      "turn out",
-      "run out",
-      "break out"
+      "edge",
+      "judge",
+      "pledge",
+      "bridge"
     ],
     "answer": 1,
-    "translation": "大森元貴が何気なく書いた曲が、大ヒットであることが判明しました。",
-    "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
+    "translation": "若井滉斗は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
   },
   {
-    "id": 152,
-    "type": "conversation",
-    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The success of the live tour will (    ) teamwork, according to he.",
-    "options": [
-      "depend on",
-      "insist on",
-      "focus on",
-      "rely on"
-    ],
-    "answer": 0,
-    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼によると、ライブツアーの成功はチームワークにかかっているとのことです。",
-    "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
-  },
-  {
-    "id": 153,
+    "id": 387,
     "type": "sentence",
-    "text": "Ryoka Fujisawa booked the flight tickets (    ) for the trip.",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
     "options": [
-      "in advance",
-      "in detail",
-      "in general",
-      "in particular"
-    ],
-    "answer": 0,
-    "translation": "藤澤涼架は旅行のために航空券を事前に予約しました。",
-    "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
-  },
-  {
-    "id": 154,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
-    "options": [
-      "make sure",
-      "make sense",
-      "make up",
-      "make progress"
-    ],
-    "answer": 1,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
-    "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
-  },
-  {
-    "id": 155,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE noticed that they had (    ) milk while making breakfast.",
-    "options": [
-      "keep out of",
-      "get out of",
-      "run out of",
-      "stay out of"
-    ],
-    "answer": 2,
-    "translation": "ミセスグリーンアップルは朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
-    "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
-  },
-  {
-    "id": 156,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, The music festival where they will perform are going to (    ) in August.",
-    "options": [
-      "take part",
-      "take pride",
-      "take care",
-      "take place"
+      "hit",
+      "fit",
+      "sit",
+      "knit"
     ],
     "answer": 3,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らが出演する音楽フェスは8月に開催される予定です。",
-    "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
   },
   {
-    "id": 157,
+    "id": 388,
     "type": "sentence",
-    "text": "Motoki Ohmori is really (    ) meeting the fans again.",
+    "text": "Tired after the live, Mrs. GREEN APPLE tried to (    ) against the wall.",
     "options": [
-      "look up to",
-      "look out for",
-      "look down on",
-      "look forward to"
+      "bean",
+      "mean",
+      "clean",
+      "lean"
     ],
     "answer": 3,
-    "translation": "大森元貴はまたファンに会えるのを本当に楽しみにしています。",
-    "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
+    "translation": "ライブの後で疲れていたので、ミセスグリーンアップルは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
   },
   {
-    "id": 158,
+    "id": 389,
     "type": "sentence",
-    "text": "Hiroto Wakai advised the members to (    ) the small details in the sound.",
+    "text": "Mrs. GREEN APPLE uses a special case to (    ) the condition of the vintage guitar.",
     "options": [
-      "catch sight of",
-      "get rid of",
-      "pay attention to",
-      "take advantage of"
+      "preserve",
+      "observe",
+      "deserve",
+      "reserve"
     ],
-    "answer": 2,
-    "translation": "若井滉斗はメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
-    "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
+    "answer": 0,
+    "translation": "ミセスグリーンアップルはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
   },
   {
-    "id": 159,
+    "id": 390,
     "type": "sentence",
-    "text": "Ryoka Fujisawa knows how to politely (    ) difficult situations.",
+    "text": "When The members of Mrs. GREEN APPLE started playing, all the nervousness seemed to (    ).",
     "options": [
-      "put up with",
-      "deal with",
-      "come up with",
-      "keep up with"
+      "finish",
+      "punish",
+      "banish",
+      "vanish"
     ],
-    "answer": 1,
-    "translation": "藤澤涼架は困難な状況に丁寧に対処する方法を知っています。",
-    "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
   },
   {
-    "id": 160,
+    "id": 391,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE bought some fresh (    ) to cook pasta.",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
     "options": [
-      "insects",
-      "ingredients",
       "instructions",
+      "ingredients",
+      "insects",
       "instruments"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルはパスタを作るために新鮮な材料をいくつか買いました。",
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
     "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
   },
   {
-    "id": 161,
+    "id": 392,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE ordered new (    ) for the home studio.",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
     "options": [
-      "equipment",
       "employment",
+      "equipment",
       "experiment",
       "environment"
     ],
-    "answer": 0,
-    "translation": "ミセスグリーンアップルは自宅スタジオのために新しい機材を注文しました。",
+    "answer": 1,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
     "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
   },
   {
-    "id": 162,
+    "id": 393,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE fell asleep as a (    ) on the train.",
+    "text": "Ryoka Fujisawa fell asleep as a (    ) on the train.",
     "options": [
-      "messenger",
-      "manager",
       "stranger",
-      "passenger"
+      "messenger",
+      "passenger",
+      "manager"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルのメンバーは電車の乗客として眠ってしまいました。",
+    "answer": 2,
+    "translation": "藤澤涼架は電車の乗客として眠ってしまいました。",
     "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
   },
   {
-    "id": 163,
+    "id": 394,
     "type": "sentence",
-    "text": "Motoki Ohmori finally arrived at the (    ) after a long drive.",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
     "options": [
-      "department",
       "destination",
-      "description",
-      "decision"
+      "decision",
+      "department",
+      "description"
     ],
-    "answer": 1,
-    "translation": "大森元貴は長時間のドライブの末、ついに目的地に到着しました。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
     "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
   },
   {
-    "id": 164,
+    "id": 395,
     "type": "sentence",
-    "text": "Hiroto Wakai listens to a wide (    ) of music genres.",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
     "options": [
-      "variety",
-      "society",
       "anxiety",
-      "safety"
+      "variety",
+      "safety",
+      "society"
     ],
-    "answer": 0,
-    "translation": "若井滉斗は幅広いジャンルの音楽を聴きます。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
     "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
   },
   {
-    "id": 165,
-    "type": "sentence",
-    "text": "One (    ) of living in Tokyo is that Ryoka Fujisawa can easily go to many concerts.",
+    "id": 396,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, One (    ) of living in Tokyo are that they can easily go to many concerts.",
     "options": [
-      "advice",
       "advance",
       "adventure",
-      "advantage"
+      "advantage",
+      "advice"
     ],
-    "answer": 3,
-    "translation": "東京に住む一つの利点は、藤澤涼架がたくさんのコンサートに簡単に行けることです。",
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、東京に住む一つの利点は、彼らがたくさんのコンサートに簡単に行けることです。",
     "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
   },
   {
-    "id": 166,
+    "id": 397,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE missed the (    ) to take a walk in the park because of the rain.",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
     "options": [
-      "opposition",
-      "opportunity",
       "operation",
+      "opportunity",
+      "opposition",
       "opinion"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルは雨のせいで公園を散歩する機会を逃しました。",
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
     "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
   },
   {
-    "id": 167,
-    "type": "sentence",
-    "text": "The (    ) cheered loudly when Mrs. GREEN APPLE appeared on stage.",
+    "id": 398,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, The (    ) cheered loudly when he appeared on stage.",
     "options": [
       "absence",
       "audience",
-      "appearance",
-      "attendance"
+      "attendance",
+      "appearance"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルがステージに現れた時、観客は大きな声で歓声を上げました。",
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼がステージに現れた時、観客は大きな声で歓声を上げました。",
     "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
   },
   {
-    "id": 168,
+    "id": 399,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE often takes pictures while walking around the (    ).",
+    "text": "Ryoka Fujisawa often takes pictures while walking around the (    ).",
     "options": [
-      "childhood",
-      "brotherhood",
+      "neighborhood",
       "livelihood",
-      "neighborhood"
+      "brotherhood",
+      "childhood"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルのメンバーは近所を散歩しながらよく写真を撮ります。",
+    "answer": 0,
+    "translation": "藤澤涼架は近所を散歩しながらよく写真を撮ります。",
     "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
   },
   {
-    "id": 169,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he felt a certain (    ) of nervousness before the live broadcast.",
+    "id": 400,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
     "options": [
-      "agree",
       "disagree",
-      "decree",
-      "degree"
+      "agree",
+      "degree",
+      "decree"
     ],
-    "answer": 3,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は生放送の前に、ある程度の緊張を感じました。",
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
     "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
   },
   {
-    "id": 170,
+    "id": 401,
     "type": "sentence",
-    "text": "Hiroto Wakai caught a cold because the (    ) dropped suddenly.",
+    "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
     "options": [
-      "feature",
-      "temperature",
       "literature",
+      "temperature",
+      "feature",
       "creature"
     ],
     "answer": 1,
-    "translation": "若井滉斗は気温が急に下がったため風邪をひきました。",
+    "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
     "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
   },
   {
-    "id": 171,
+    "id": 402,
     "type": "sentence",
-    "text": "Ryoka Fujisawa was deeply moved by the beautiful (    ) of the mountains.",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
     "options": [
       "scene",
       "scenery",
@@ -2390,307 +5624,307 @@ const questionBank = [
       "science"
     ],
     "answer": 1,
-    "translation": "藤澤涼架は山の美しい風景に深く感動しました。",
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
     "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
   },
   {
-    "id": 172,
+    "id": 403,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE eats healthy food to prevent (    ).",
+    "text": "Motoki Ohmori eats healthy food to prevent (    ).",
     "options": [
-      "deceive",
       "decrease",
+      "deceive",
       "disease",
       "desire"
     ],
     "answer": 2,
-    "translation": "ミセスグリーンアップルは病気を防ぐために健康的な食べ物を食べます。",
+    "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
     "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
   },
   {
-    "id": 173,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, It is a (    ) for they to drink coffee every morning.",
+    "id": 404,
+    "type": "sentence",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
     "options": [
-      "custom",
-      "costume",
       "customer",
+      "costume",
+      "custom",
       "castle"
     ],
-    "answer": 0,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、毎朝コーヒーを飲むのが彼らの習慣です。",
+    "answer": 2,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
     "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
   },
   {
-    "id": 174,
-    "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE spent a large (    ) of money on new clothes.",
+    "id": 405,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he spent a large (    ) of money on new clothes.",
     "options": [
-      "announce",
+      "account",
       "amount",
-      "allowance",
-      "account"
+      "announce",
+      "allowance"
     ],
     "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーは新しい服に多額のお金を使いました。",
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は新しい服に多額のお金を使いました。",
     "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
   },
   {
-    "id": 175,
+    "id": 406,
     "type": "sentence",
-    "text": "Motoki Ohmori worked hard to (    ) the goal of making a great album.",
+    "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
     "options": [
+      "receive",
       "believe",
-      "achieve",
       "deceive",
-      "receive"
+      "achieve"
     ],
-    "answer": 1,
-    "translation": "大森元貴は素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
     "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
   },
   {
-    "id": 176,
+    "id": 407,
     "type": "conversation",
-    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he never (    )s about being too busy.",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they never (    )s about being too busy.",
     "options": [
-      "complain",
       "explain",
-      "contain",
-      "remain"
+      "remain",
+      "complain",
+      "contain"
     ],
-    "answer": 0,
-    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼は忙しすぎることについて決して不平を言いません。",
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは忙しすぎることについて決して不平を言いません。",
     "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
   },
   {
-    "id": 177,
+    "id": 408,
     "type": "conversation",
-    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he's smile always (    )s the fans.",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they's smile always (    )s the fans.",
     "options": [
       "enlarge",
       "engage",
-      "discourage",
-      "encourage"
+      "encourage",
+      "discourage"
     ],
-    "answer": 3,
-    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼の笑顔はいつもファンを勇気づけます。",
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らの笑顔はいつもファンを勇気づけます。",
     "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
   },
   {
-    "id": 178,
+    "id": 409,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE practices every day to (    ) guitar skills.",
+    "text": "Motoki Ohmori practices every day to (    ) guitar skills.",
     "options": [
-      "approve",
       "improve",
       "prove",
+      "approve",
       "remove"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルはギターのスキルを向上させるために毎日練習しています。",
+    "answer": 0,
+    "translation": "大森元貴はギターのスキルを向上させるために毎日練習しています。",
     "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
   },
   {
-    "id": 179,
+    "id": 410,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE (    )ed that they should go eat ramen after the rehearsal.",
+    "text": "Hiroto Wakai (    )ed that they should go eat ramen after the rehearsal.",
     "options": [
-      "digest",
-      "suggest",
       "invest",
-      "request"
+      "request",
+      "suggest",
+      "digest"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルはリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "answer": 2,
+    "translation": "若井滉斗はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
     "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
   },
   {
-    "id": 180,
+    "id": 411,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE need to (    ) the broken strings on the guitar.",
+    "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
     "options": [
-      "place",
-      "reduce",
       "relax",
-      "replace"
+      "replace",
+      "reduce",
+      "place"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルのメンバーはギターの切れた弦を交換する必要があります。",
+    "answer": 1,
+    "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
     "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
   },
   {
-    "id": 181,
+    "id": 412,
     "type": "sentence",
-    "text": "Motoki Ohmori was easily (    )d by fans while shopping at the mall.",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
     "options": [
-      "realize",
-      "recognize",
       "memorize",
+      "recognize",
+      "realize",
       "organize"
     ],
     "answer": 1,
-    "translation": "大森元貴はショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
     "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
   },
   {
-    "id": 182,
+    "id": 413,
     "type": "sentence",
-    "text": "Hiroto Wakai will (    ) in a charity marathon next month.",
+    "text": "Mrs. GREEN APPLE will (    ) in a charity marathon next month.",
     "options": [
-      "anticipate",
       "participate",
+      "hesitate",
       "calculate",
-      "hesitate"
+      "anticipate"
     ],
-    "answer": 1,
-    "translation": "若井滉斗は来月チャリティーマラソンに参加します。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは来月チャリティーマラソンに参加します。",
     "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
   },
   {
-    "id": 183,
+    "id": 414,
     "type": "sentence",
-    "text": "Writing a good song (    )s a lot of concentration for Ryoka Fujisawa.",
+    "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
     "options": [
       "require",
-      "inquire",
+      "retire",
       "acquire",
-      "retire"
+      "inquire"
     ],
     "answer": 0,
-    "translation": "良い曲を書くことは藤澤涼架にとって多くの集中力を必要とします。",
+    "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
     "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
   },
   {
-    "id": 184,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE doesn't like to (    ) themselves with others.",
+    "id": 415,
+    "type": "conversation",
+    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, he doesn't like to (    ) themselves with others.",
     "options": [
-      "declare",
       "prepare",
-      "repair",
-      "compare"
+      "compare",
+      "declare",
+      "repair"
     ],
-    "answer": 3,
-    "translation": "ミセスグリーンアップルは自分自身を他人と比較するのが好きではありません。",
+    "answer": 1,
+    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼は自分自身を他人と比較するのが好きではありません。",
     "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
   },
   {
-    "id": 185,
+    "id": 416,
     "type": "sentence",
-    "text": "Mrs. GREEN APPLE wants to (    ) fans with unforgettable memories.",
+    "text": "Hiroto Wakai wants to (    ) fans with unforgettable memories.",
     "options": [
       "provide",
       "decide",
-      "guide",
-      "divide"
+      "divide",
+      "guide"
     ],
     "answer": 0,
-    "translation": "ミセスグリーンアップルはファンに忘れられない思い出を提供したいと思っています。",
+    "translation": "若井滉斗はファンに忘れられない思い出を提供したいと思っています。",
     "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
   },
   {
-    "id": 186,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they can always (    ) on the other members when things get tough.",
+    "id": 417,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
     "options": [
       "supply",
+      "reply",
       "rely",
-      "apply",
-      "reply"
+      "apply"
     ],
-    "answer": 1,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、困難な時、彼らはいつも他のメンバーに頼ることができます。",
-    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事をする）、apply（適用する・申し込む）、supply（供給する）。"
+    "answer": 2,
+    "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
   },
   {
-    "id": 187,
+    "id": 418,
     "type": "sentence",
-    "text": "Motoki Ohmori couldn't (    ) to buy that expensive instrument years ago.",
+    "text": "Mrs. GREEN APPLE couldn't (    ) to buy that expensive instrument years ago.",
     "options": [
       "afford",
-      "reward",
       "effort",
-      "record"
+      "record",
+      "reward"
     ],
     "answer": 0,
-    "translation": "大森元貴は何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "translation": "ミセスグリーンアップルは何年も前はあの高価な楽器を買う余裕がありませんでした。",
     "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
   },
   {
-    "id": 188,
+    "id": 419,
     "type": "sentence",
-    "text": "Hiroto Wakai wore a warm coat to (    ) catching a cold.",
+    "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
     "options": [
-      "prevent",
-      "event",
       "invent",
-      "present"
+      "event",
+      "present",
+      "prevent"
     ],
-    "answer": 0,
-    "translation": "若井滉斗は風邪をひくのを防ぐために暖かいコートを着ました。",
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
     "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
   },
   {
-    "id": 189,
-    "type": "conversation",
-    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, A simple meal of rice and miso soup is enough to (    ) he.",
+    "id": 420,
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
     "options": [
-      "terrify",
-      "qualify",
       "modify",
-      "satisfy"
+      "qualify",
+      "satisfy",
+      "terrify"
     ],
-    "answer": 3,
-    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、ご飯と味噌汁のシンプルな食事で彼を満足させるのに十分です。",
+    "answer": 2,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
     "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
   },
   {
-    "id": 190,
+    "id": 421,
     "type": "sentence",
-    "text": "The melody of that song is very (    ) to Mrs. GREEN APPLE.",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
     "options": [
-      "popular",
-      "familiar",
       "similar",
+      "familiar",
+      "popular",
       "regular"
     ],
     "answer": 1,
-    "translation": "その曲のメロディーはミセスグリーンアップルにとってとても馴染みがあります。",
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
     "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
   },
   {
-    "id": 191,
+    "id": 422,
     "type": "sentence",
-    "text": "Living near the station is very (    ) for Mrs. GREEN APPLE.",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
     "options": [
-      "current",
-      "confident",
       "convenient",
-      "excellent"
+      "current",
+      "excellent",
+      "confident"
     ],
-    "answer": 2,
-    "translation": "駅の近くに住むことはミセスグリーンアップルにとってとても便利です。",
+    "answer": 0,
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
     "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
   },
   {
-    "id": 192,
+    "id": 423,
     "type": "sentence",
-    "text": "The members of Mrs. GREEN APPLE have been very (    ) since moving out of the parents' house.",
+    "text": "Ryoka Fujisawa has been very (    ) since moving out of the parents' house.",
     "options": [
-      "confident",
       "independent",
-      "silent",
-      "dependent"
+      "confident",
+      "dependent",
+      "silent"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルのメンバーは実家を出て以来、とても自立しています。",
+    "answer": 0,
+    "translation": "藤澤涼架は実家を出て以来、とても自立しています。",
     "explanation": "independent（自立した、独立した）。 / その他の選択肢: dependent（依存している）、confident（自信がある）、silent（静かな）。"
   },
   {
-    "id": 193,
+    "id": 424,
     "type": "sentence",
-    "text": "Motoki Ohmori likes to cook dishes from (    ) countries.",
+    "text": "Mrs. GREEN APPLE likes to cook dishes from (    ) countries.",
     "options": [
       "serious",
       "various",
@@ -2698,106 +5932,1072 @@ const questionBank = [
       "curious"
     ],
     "answer": 1,
-    "translation": "大森元貴は様々な国の料理を作るのが好きです。",
+    "translation": "ミセスグリーンアップルは様々な国の料理を作るのが好きです。",
     "explanation": "various（様々な）。 / その他の選択肢: serious（深刻な）、obvious（明らかな）、curious（好奇心が強い）。"
   },
   {
-    "id": 194,
-    "type": "conversation",
-    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he is always (    ) about new fashion trends.",
+    "id": 425,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE is always (    ) about new fashion trends.",
     "options": [
-      "serious",
+      "nervous",
       "curious",
-      "furious",
-      "nervous"
+      "serious",
+      "furious"
     ],
     "answer": 1,
-    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はいつも新しいファッショントレンドに好奇心を持っています。",
+    "translation": "ミセスグリーンアップルはいつも新しいファッショントレンドに好奇心を持っています。",
     "explanation": "be curious about ~（〜について好奇心が強い、気になる）。 / その他の選択肢: serious（深刻な）、furious（激怒した）、nervous（緊張した）。"
   },
   {
-    "id": 195,
+    "id": 426,
     "type": "sentence",
-    "text": "Ryoka Fujisawa was not (    ) of the time and stayed up late playing games.",
+    "text": "The members of Mrs. GREEN APPLE were not (    ) of the time and stayed up late playing games.",
     "options": [
+      "aware",
       "alike",
       "away",
-      "awake",
-      "aware"
+      "awake"
     ],
-    "answer": 3,
-    "translation": "藤澤涼架は時間に気付かず、夜遅くまでゲームをして起きていました。",
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーは時間に気付かず、夜遅くまでゲームをして起きていました。",
     "explanation": "be aware of ~（〜に気付いている）。 / その他の選択肢: awake（起きている）、away（離れて）、alike（似ている）。"
   },
   {
-    "id": 196,
-    "type": "conversation",
-    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, That is (    ) what they wanted to say.",
+    "id": 427,
+    "type": "sentence",
+    "text": "That is (    ) what Motoki Ohmori wanted to say.",
     "options": [
-      "mostly",
-      "hardly",
       "exactly",
+      "hardly",
+      "mostly",
       "nearly"
     ],
-    "answer": 2,
-    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、それはまさに彼らが言いたかったことです。",
+    "answer": 0,
+    "translation": "それはまさに大森元貴が言いたかったことです。",
     "explanation": "exactly（まさに、正確に）。 / その他の選択肢: mostly（主に）、hardly（ほとんど～ない）、nearly（ほとんど）。"
   },
   {
-    "id": 197,
-    "type": "sentence",
-    "text": "Mrs. GREEN APPLE (    ) visits that small cafe in the afternoon.",
+    "id": 428,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he (    ) visits that small cafe in the afternoon.",
     "options": [
       "rarely",
-      "frequently",
+      "recently",
       "suddenly",
-      "recently"
+      "frequently"
     ],
-    "answer": 1,
-    "translation": "ミセスグリーンアップルは午後によくその小さなカフェを訪れます。",
+    "answer": 3,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼は午後によくその小さなカフェを訪れます。",
     "explanation": "frequently（頻繁に）。 / その他の選択肢: recently（最近）、rarely（めったに～ない）、suddenly（突然）。"
   },
   {
-    "id": 198,
-    "type": "conversation",
-    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they's singing voice (    ) became stronger over the years.",
+    "id": 429,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa's singing voice (    ) became stronger over the years.",
     "options": [
       "usually",
+      "actually",
       "naturally",
-      "gradually",
-      "actually"
+      "gradually"
     ],
-    "answer": 2,
-    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らの歌声は年月を経て徐々に力強くなりました。",
+    "answer": 3,
+    "translation": "藤澤涼架の歌声は年月を経て徐々に力強くなりました。",
     "explanation": "gradually（徐々に）。 / その他の選択肢: usually（普通は）、naturally（自然に）、actually（実は）。"
   },
   {
-    "id": 199,
-    "type": "conversation",
-    "text": "A: Did you hear about Motoki Ohmori?\nB: Yeah, When he heard the news, they (    ) called their family.",
+    "id": 430,
+    "type": "sentence",
+    "text": "When Mrs. GREEN APPLE heard the news, they (    ) called their family.",
     "options": [
-      "completely",
-      "unfortunately",
       "extremely",
-      "immediately"
+      "immediately",
+      "unfortunately",
+      "completely"
     ],
-    "answer": 3,
-    "translation": "A: 大森元貴のこと聞いた？\nB: うん、彼はそのニュースを聞いた時、すぐに家族に電話しました。",
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはそのニュースを聞いた時、すぐに家族に電話しました。",
     "explanation": "immediately（すぐに、直ちに）。 / その他の選択肢: completely（完全に）、unfortunately（残念ながら）、extremely（極端に）。"
   },
   {
-    "id": 200,
+    "id": 431,
     "type": "sentence",
-    "text": "Hiroto Wakai loves all animals, but (    ) dogs.",
+    "text": "Mrs. GREEN APPLE loves all animals, but (    ) dogs.",
     "options": [
       "eventually",
-      "especially",
       "specifically",
+      "especially",
       "specially"
     ],
-    "answer": 1,
-    "translation": "若井滉斗はすべての動物が好きですが、特に犬が好きです。",
+    "answer": 2,
+    "translation": "ミセスグリーンアップルはすべての動物が好きですが、特に犬が好きです。",
     "explanation": "especially（特に）。 / その他の選択肢: specially（特別に）、specifically（明確に）、eventually（最終的に）。"
+  },
+  {
+    "id": 432,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE feel (    ) for making the fans happy.",
+    "options": [
+      "flexible",
+      "possible",
+      "terrible",
+      "responsible"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーはファンを幸せにすることに責任を感じています。",
+    "explanation": "be responsible for ~（〜に対して責任がある）。 / その他の選択肢: possible（可能な）、terrible（ひどい）、flexible（柔軟な）。"
+  },
+  {
+    "id": 433,
+    "type": "sentence",
+    "text": "Motoki Ohmori was not (    ) for the interview yesterday.",
+    "options": [
+      "valuable",
+      "capable",
+      "available",
+      "suitable"
+    ],
+    "answer": 2,
+    "translation": "大森元貴は昨日のインタビューには対応できませんでした（都合がつきませんでした）。",
+    "explanation": "available（利用できる、手が空いている）。 / その他の選択肢: valuable（価値のある）、suitable（適した）、capable（能力がある）。"
+  },
+  {
+    "id": 434,
+    "type": "sentence",
+    "text": "Hiroto Wakai finally managed to (    ) how to use the new synthesizer.",
+    "options": [
+      "figure out",
+      "turn out",
+      "carry out",
+      "point out"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗はついに新しいシンセサイザーの使い方を理解することができました。",
+    "explanation": "figure out（〜を理解する、解決する）。 / その他の選択肢: point out（指摘する）、turn out（判明する）、carry out（実行する）。"
+  },
+  {
+    "id": 435,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, The song he wrote casually (    ) to be a massive hit.",
+    "options": [
+      "turn out",
+      "run out",
+      "break out",
+      "find out"
+    ],
+    "answer": 0,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼が何気なく書いた曲が、大ヒットであることが判明しました。",
+    "explanation": "turn out to be ~（〜であることが判明する）。 / その他の選択肢: break out（勃発する）、run out（尽きる）、find out（見つけ出す）。"
+  },
+  {
+    "id": 436,
+    "type": "sentence",
+    "text": "The success of the live tour will (    ) teamwork, according to Mrs. GREEN APPLE.",
+    "options": [
+      "insist on",
+      "depend on",
+      "focus on",
+      "rely on"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルによると、ライブツアーの成功はチームワークにかかっているとのことです。",
+    "explanation": "depend on ~（〜次第である、〜に頼る）。 / その他の選択肢: insist on（主張する）、focus on（集中する）、rely on（頼る）。"
+  },
+  {
+    "id": 437,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE booked the flight tickets (    ) for the trip.",
+    "options": [
+      "in general",
+      "in particular",
+      "in advance",
+      "in detail"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは旅行のために航空券を事前に予約しました。",
+    "explanation": "in advance（前もって、事前に）。 / その他の選択肢: in detail（詳細に）、in general（一般的に）、in particular（特に）。"
+  },
+  {
+    "id": 438,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE thought the lyrics didn't (    ) at first, but later understood the deep meaning.",
+    "options": [
+      "make sure",
+      "make up",
+      "make progress",
+      "make sense"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルのメンバーは最初、その歌詞は意味が通らないと思いましたが、後になって深い意味を理解しました。",
+    "explanation": "make sense（意味をなす、理にかなう）。 / その他の選択肢: make up（構成する・化粧する）、make sure（確かめる）、make progress（進歩する）。"
+  },
+  {
+    "id": 439,
+    "type": "sentence",
+    "text": "Motoki Ohmori noticed that they had (    ) milk while making breakfast.",
+    "options": [
+      "run out of",
+      "keep out of",
+      "stay out of",
+      "get out of"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は朝食を作っている時に牛乳を切らしてしまったことに気付きました。",
+    "explanation": "run out of ~（〜を使い果たす、切らす）。 / その他の選択肢: get out of（抜け出す）、stay out of（関わらない）、keep out of（立ち入らない）。"
+  },
+  {
+    "id": 440,
+    "type": "sentence",
+    "text": "The music festival where Hiroto Wakai will perform is going to (    ) in August.",
+    "options": [
+      "take care",
+      "take part",
+      "take place",
+      "take pride"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗が出演する音楽フェスは8月に開催される予定です。",
+    "explanation": "take place（開催される、起こる）。 / その他の選択肢: take part（参加する）、take pride（誇りを持つ）、take care（世話をする）。"
+  },
+  {
+    "id": 441,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa is really (    ) meeting the fans again.",
+    "options": [
+      "look down on",
+      "look forward to",
+      "look out for",
+      "look up to"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架はまたファンに会えるのを本当に楽しみにしています。",
+    "explanation": "look forward to ~（〜を楽しみに待つ）。toの後は名詞か動名詞が来ます。 / その他の選択肢: look up to（尊敬する）、look down on（見下す）、look out for（気をつける）。"
+  },
+  {
+    "id": 442,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they advised the members to (    ) the small details in the sound.",
+    "options": [
+      "get rid of",
+      "pay attention to",
+      "take advantage of",
+      "catch sight of"
+    ],
+    "answer": 1,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはメンバーたちに、音の細部に注意を払うようにアドバイスしました。",
+    "explanation": "pay attention to ~（〜に注意を払う）。 / その他の選択肢: catch sight of（見つける）、get rid of（取り除く）、take advantage of（利用する）。"
+  },
+  {
+    "id": 443,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE knows how to politely (    ) difficult situations.",
+    "options": [
+      "come up with",
+      "deal with",
+      "keep up with",
+      "put up with"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは困難な状況に丁寧に対処する方法を知っています。",
+    "explanation": "deal with ~（〜を処理する、〜に対処する）。 / その他の選択肢: come up with（思いつく）、keep up with（遅れずについていく）、put up with（我慢する）。"
+  },
+  {
+    "id": 444,
+    "type": "sentence",
+    "text": "It have become a (    ) for The members of Mrs. GREEN APPLE to visit a shrine on New Year's Day.",
+    "options": [
+      "transition",
+      "transportation",
+      "translation",
+      "tradition"
+    ],
+    "answer": 3,
+    "translation": "元旦に神社を訪れることがミセスグリーンアップルのメンバーの伝統（恒例行事）になっています。",
+    "explanation": "tradition（伝統、慣習）。 / その他の選択肢: translation（翻訳）、transition（移行）、transportation（交通機関）。"
+  },
+  {
+    "id": 445,
+    "type": "sentence",
+    "text": "Motoki Ohmori was mentioned as a strong (    ) for the music award.",
+    "options": [
+      "certificate",
+      "customer",
+      "celebration",
+      "candidate"
+    ],
+    "answer": 3,
+    "translation": "大森元貴はその音楽賞の有力な候補者として言及されました。",
+    "explanation": "candidate（候補者）。 / その他の選択肢: certificate（証明書）、celebration（お祝い）、customer（客）。"
+  },
+  {
+    "id": 446,
+    "type": "sentence",
+    "text": "Hiroto Wakai always treats the concert staff and every (    ) with great respect.",
+    "options": [
+      "manager",
+      "employer",
+      "engineer",
+      "employee"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗はコンサートスタッフやすべての従業員に大きな敬意を持って接します。",
+    "explanation": "employee（従業員）。 / その他の選択肢: employer（雇用主）、engineer（エンジニア）、manager（マネージャー）。"
+  },
+  {
+    "id": 447,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa discovered a new (    ) to relieve stress after a long tour.",
+    "options": [
+      "period",
+      "method",
+      "record",
+      "department"
+    ],
+    "answer": 1,
+    "translation": "藤澤涼架は長いツアーの後にストレスを和らげる新しい方法を発見しました。",
+    "explanation": "method（方法、方式）。 / その他の選択肢: period（期間）、record（記録）、department（部門）。"
+  },
+  {
+    "id": 448,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE used their first (    ) to buy a gift for their parents.",
+    "options": [
+      "society",
+      "sympathy",
+      "salary",
+      "safety"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは初任給を使って両親にプレゼントを買いました。",
+    "explanation": "salary（給料）。 / その他の選択肢: safety（安全）、sympathy（同情）、society（社会）。"
+  },
+  {
+    "id": 449,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they had to (    ) that they forgot the lyrics for a moment during the live.",
+    "options": [
+      "admit",
+      "permit",
+      "submit",
+      "commit"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはライブ中、一瞬歌詞を忘れたことを認めなければなりませんでした。",
+    "explanation": "admit（〜を認める）。 / その他の選択肢: permit（許可する）、submit（提出する）。"
+  },
+  {
+    "id": 450,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they never (    )s others when a mistake happens in the studio.",
+    "options": [
+      "claim",
+      "frame",
+      "blame",
+      "flame"
+    ],
+    "answer": 2,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、スタジオでミスが起きた時、彼らは決して他人を責めません。",
+    "explanation": "blame（〜を責める）。 / その他の選択肢: frame（枠・枠組み）、flame（炎）。"
+  },
+  {
+    "id": 451,
+    "type": "sentence",
+    "text": "Motoki Ohmori had to (    ) the dinner reservation because the recording took longer.",
+    "options": [
+      "channel",
+      "panel",
+      "tunnel",
+      "cancel"
+    ],
+    "answer": 3,
+    "translation": "レコーディングが長引いたため、大森元貴は夕食の予約を取り消さなければなりませんでした。",
+    "explanation": "cancel（取り消す、キャンセルする）。 / その他の選択肢: channel（チャンネル）、panel（パネル）。"
+  },
+  {
+    "id": 452,
+    "type": "sentence",
+    "text": "Hiroto Wakai tries to (    ) negative comments on the internet.",
+    "options": [
+      "store",
+      "ignore",
+      "restore",
+      "explore"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗はインターネット上の否定的なコメントを無視しようと努めています。",
+    "explanation": "ignore（無視する）。 / その他の選択肢: explore（探検する）、restore（修復する）。"
+  },
+  {
+    "id": 453,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa used a ruler to (    ) the size of the new guitar case.",
+    "options": [
+      "treasure",
+      "pleasure",
+      "measure",
+      "leisure"
+    ],
+    "answer": 2,
+    "translation": "藤澤涼架は新しいギターケースのサイズを測るために定規を使いました。",
+    "explanation": "measure（〜を測る）。 / その他の選択肢: treasure（宝物）、pleasure（喜び）。"
+  },
+  {
+    "id": 454,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE donated money to an organization that (    )s stray animals.",
+    "options": [
+      "continue",
+      "rescue",
+      "value",
+      "argue"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは迷子の動物を救助する団体に寄付をしました。",
+    "explanation": "rescue（救助する）。 / その他の選択肢: argue（議論する）、continue（続ける）。"
+  },
+  {
+    "id": 455,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) for the best ramen shop in the city tonight.",
+    "options": [
+      "reach",
+      "teach",
+      "search",
+      "catch"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは今夜、この街で一番美味しいラーメン屋を探すつもりです。",
+    "explanation": "search for ~（〜を探す）。 / その他の選択肢: reach（到達する）、teach（教える）。"
+  },
+  {
+    "id": 456,
+    "type": "sentence",
+    "text": "The staff (    )ed The members of Mrs. GREEN APPLE not to run on the slippery stage.",
+    "options": [
+      "turn",
+      "warn",
+      "burn",
+      "learn"
+    ],
+    "answer": 1,
+    "translation": "スタッフはミセスグリーンアップルのメンバーに、滑りやすいステージの上を走らないよう警告しました。",
+    "explanation": "warn A not to do（Aに〜しないよう警告する）。 / その他の選択肢: burn（燃える）、turn（回る）。"
+  },
+  {
+    "id": 457,
+    "type": "sentence",
+    "text": "Due to a (    ) of sleep, Motoki Ohmori drank three cups of coffee.",
+    "options": [
+      "lack",
+      "lock",
+      "luck",
+      "rock"
+    ],
+    "answer": 0,
+    "translation": "睡眠不足のため、大森元貴はコーヒーを3杯飲みました。",
+    "explanation": "a lack of ~（〜の不足）。 / その他の選択肢: luck（幸運）、lock（鍵）。"
+  },
+  {
+    "id": 458,
+    "type": "sentence",
+    "text": "Hiroto Wakai paid the entrance (    ) to visit the art museum.",
+    "options": [
+      "flee",
+      "tree",
+      "fee",
+      "free"
+    ],
+    "answer": 2,
+    "translation": "若井滉斗は美術館を訪れるために入場料を支払いました。",
+    "explanation": "fee（料金、手数料、入場料）。 / その他の選択肢: free（無料）、flee（逃げる）。"
+  },
+  {
+    "id": 459,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa believes that good (    ) is much more important than money.",
+    "options": [
+      "wealth",
+      "death",
+      "health",
+      "stealth"
+    ],
+    "answer": 0,
+    "translation": "藤澤涼架はお金よりも健康のほうがはるかに重要だと信じています。",
+    "explanation": "health（健康）。wealth（富）の対義的。 / その他の選択肢: health（健康）、death（死）。"
+  },
+  {
+    "id": 460,
+    "type": "sentence",
+    "text": "Once Mrs. GREEN APPLE starts writing a song, they enter a deep concentration (    ).",
+    "options": [
+      "tone",
+      "zone",
+      "stone",
+      "bone"
+    ],
+    "answer": 1,
+    "translation": "一度曲を書き始めると、ミセスグリーンアップルは深い集中のゾーンに入ります。",
+    "explanation": "zone（地帯、領域）。 / その他の選択肢: bone（骨）、tone（音色）。"
+  },
+  {
+    "id": 461,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE cannot (    ) the fact that their fans are the best in the world.",
+    "options": [
+      "defy",
+      "reply",
+      "rely",
+      "deny"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは自分たちのファンが世界一であるという事実を否定できません。",
+    "explanation": "deny（〜を否定する）。 / その他の選択肢: rely（頼る）、reply（返事する）。"
+  },
+  {
+    "id": 462,
+    "type": "conversation",
+    "text": "A: Did you hear about The members of Mrs. GREEN APPLE?\nB: Yeah, they love to (    ) with friends and play board games.",
+    "options": [
+      "gather",
+      "weather",
+      "bother",
+      "father"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのメンバーのこと聞いた？\nB: うん、彼らは友達と集まってボードゲームをするのが好きです。",
+    "explanation": "gather（集める、集まる）。 / その他の選択肢: bother（悩ます）、father（父親）。"
+  },
+  {
+    "id": 463,
+    "type": "sentence",
+    "text": "The agency decided to (    ) more security guards for Motoki Ohmori's concert.",
+    "options": [
+      "fire",
+      "hire",
+      "wire",
+      "tire"
+    ],
+    "answer": 1,
+    "translation": "事務所は大森元貴のコンサートのために警備員をさらに雇うことを決定しました。",
+    "explanation": "hire（雇う）。 / その他の選択肢: fire（火・解雇する）、tire（疲れさせる）。"
+  },
+  {
+    "id": 464,
+    "type": "sentence",
+    "text": "Hiroto Wakai thinks people should not (    ) others based solely on appearance.",
+    "options": [
+      "judge",
+      "pledge",
+      "bridge",
+      "edge"
+    ],
+    "answer": 0,
+    "translation": "若井滉斗は、人は見た目だけで他人を判断するべきではないと考えています。",
+    "explanation": "judge（判断する）。 / その他の選択肢: bridge（橋）、edge（端）。"
+  },
+  {
+    "id": 465,
+    "type": "sentence",
+    "text": "In winter, Ryoka Fujisawa often wears a cozy (    ) sweater.",
+    "options": [
+      "fit",
+      "knit",
+      "sit",
+      "hit"
+    ],
+    "answer": 1,
+    "translation": "冬には、藤澤涼架はよく着心地の良いニット（編まれた）セーターを着ます。",
+    "explanation": "knit（編む、編まれた）。 / その他の選択肢: hit（打つ）、fit（合う）。"
+  },
+  {
+    "id": 466,
+    "type": "sentence",
+    "text": "Tired after the live, Mrs. GREEN APPLE tried to (    ) against the wall.",
+    "options": [
+      "bean",
+      "clean",
+      "mean",
+      "lean"
+    ],
+    "answer": 3,
+    "translation": "ライブの後で疲れていたので、ミセスグリーンアップルは壁に寄りかかろうとしました。",
+    "explanation": "lean against ~（〜に寄りかかる）。 / その他の選択肢: mean（意味する）、clean（掃除する）。"
+  },
+  {
+    "id": 467,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they uses a special case to (    ) the condition of the vintage guitar.",
+    "options": [
+      "observe",
+      "reserve",
+      "deserve",
+      "preserve"
+    ],
+    "answer": 3,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らはヴィンテージギターの状態を保存するために特別なケースを使用しています。",
+    "explanation": "preserve（保存する、保護する）。 / その他の選択肢: reserve（予約する）、deserve（値する）。"
+  },
+  {
+    "id": 468,
+    "type": "sentence",
+    "text": "When The members of Mrs. GREEN APPLE started playing, all the nervousness seemed to (    ).",
+    "options": [
+      "punish",
+      "vanish",
+      "finish",
+      "banish"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルのメンバーが演奏し始めると、すべての緊張が消え去ったように見えました。",
+    "explanation": "vanish（消える、見えなくなる）。 / その他の選択肢: punish（罰する）、finish（終える）。"
+  },
+  {
+    "id": 469,
+    "type": "sentence",
+    "text": "Motoki Ohmori bought some fresh (    ) to cook pasta.",
+    "options": [
+      "insects",
+      "ingredients",
+      "instruments",
+      "instructions"
+    ],
+    "answer": 1,
+    "translation": "大森元貴はパスタを作るために新鮮な材料をいくつか買いました。",
+    "explanation": "ingredient（材料、食材）。料理に関する文脈で使われます。 / その他の選択肢: instruments（楽器）、instructions（指示）、insects（昆虫）。"
+  },
+  {
+    "id": 470,
+    "type": "sentence",
+    "text": "Hiroto Wakai ordered new (    ) for the home studio.",
+    "options": [
+      "experiment",
+      "equipment",
+      "environment",
+      "employment"
+    ],
+    "answer": 1,
+    "translation": "若井滉斗は自宅スタジオのために新しい機材を注文しました。",
+    "explanation": "equipment（機材、設備）。不可算名詞であることに注意。 / その他の選択肢: experiment（実験）、environment（環境）、employment（雇用）。"
+  },
+  {
+    "id": 471,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he fell asleep as a (    ) on the train.",
+    "options": [
+      "stranger",
+      "passenger",
+      "manager",
+      "messenger"
+    ],
+    "answer": 1,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は電車の乗客として眠ってしまいました。",
+    "explanation": "passenger（乗客）。 / その他の選択肢: messenger（使者）、manager（マネージャー）、stranger（見知らぬ人）。"
+  },
+  {
+    "id": 472,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE finally arrived at the (    ) after a long drive.",
+    "options": [
+      "description",
+      "department",
+      "decision",
+      "destination"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは長時間のドライブの末、ついに目的地に到着しました。",
+    "explanation": "destination（目的地、行き先）。 / その他の選択肢: description（説明）、decision（決定）、department（部門）。"
+  },
+  {
+    "id": 473,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE listens to a wide (    ) of music genres.",
+    "options": [
+      "society",
+      "anxiety",
+      "safety",
+      "variety"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは幅広いジャンルの音楽を聴きます。",
+    "explanation": "a wide variety of ~（幅広い種類の〜）。 / その他の選択肢: society（社会）、safety（安全）、anxiety（不安）。"
+  },
+  {
+    "id": 474,
+    "type": "sentence",
+    "text": "One (    ) of living in Tokyo are that The members of Mrs. GREEN APPLE can easily go to many concerts.",
+    "options": [
+      "advantage",
+      "adventure",
+      "advance",
+      "advice"
+    ],
+    "answer": 0,
+    "translation": "東京に住む一つの利点は、ミセスグリーンアップルのメンバーがたくさんのコンサートに簡単に行けることです。",
+    "explanation": "advantage（利点、有利な点）。 / その他の選択肢: adventure（冒険）、advance（前進）、advice（助言）。"
+  },
+  {
+    "id": 475,
+    "type": "sentence",
+    "text": "Motoki Ohmori missed the (    ) to take a walk in the park because of the rain.",
+    "options": [
+      "opportunity",
+      "opposition",
+      "opinion",
+      "operation"
+    ],
+    "answer": 0,
+    "translation": "大森元貴は雨のせいで公園を散歩する機会を逃しました。",
+    "explanation": "opportunity（機会、チャンス）。 / その他の選択肢: opposition（反対）、operation（手術・操作）、opinion（意見）。"
+  },
+  {
+    "id": 476,
+    "type": "sentence",
+    "text": "The (    ) cheered loudly when Hiroto Wakai appeared on stage.",
+    "options": [
+      "attendance",
+      "appearance",
+      "absence",
+      "audience"
+    ],
+    "answer": 3,
+    "translation": "若井滉斗がステージに現れた時、観客は大きな声で歓声を上げました。",
+    "explanation": "audience（観客、聴衆）。 / その他の選択肢: attendance（出席）、absence（欠席）、appearance（外見・出現）。"
+  },
+  {
+    "id": 477,
+    "type": "conversation",
+    "text": "A: Did you hear about Ryoka Fujisawa?\nB: Yeah, he often takes pictures while walking around the (    ).",
+    "options": [
+      "childhood",
+      "livelihood",
+      "neighborhood",
+      "brotherhood"
+    ],
+    "answer": 2,
+    "translation": "A: 藤澤涼架のこと聞いた？\nB: うん、彼は近所を散歩しながらよく写真を撮ります。",
+    "explanation": "neighborhood（近所、地域）。 / その他の選択肢: childhood（子供時代）、livelihood（生計）、brotherhood（兄弟の縁）。"
+  },
+  {
+    "id": 478,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE felt a certain (    ) of nervousness before the live broadcast.",
+    "options": [
+      "decree",
+      "degree",
+      "disagree",
+      "agree"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルは生放送の前に、ある程度の緊張を感じました。",
+    "explanation": "degree（程度、度合い）。a certain degree of ~ で「ある程度の〜」。 / その他の選択肢: decree（法令）、agree（同意する）、disagree（同意しない）。"
+  },
+  {
+    "id": 479,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE caught a cold because the (    ) dropped suddenly.",
+    "options": [
+      "creature",
+      "literature",
+      "temperature",
+      "feature"
+    ],
+    "answer": 2,
+    "translation": "ミセスグリーンアップルは気温が急に下がったため風邪をひきました。",
+    "explanation": "temperature（温度、気温、体温）。 / その他の選択肢: literature（文学）、creature（生き物）、feature（特徴）。"
+  },
+  {
+    "id": 480,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE were deeply moved by the beautiful (    ) of the mountains.",
+    "options": [
+      "scenery",
+      "science",
+      "scene",
+      "screen"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルのメンバーは山の美しい風景に深く感動しました。",
+    "explanation": "scenery（風景、景色）。 / その他の選択肢: scene（場面）、science（科学）、screen（画面）。"
+  },
+  {
+    "id": 481,
+    "type": "sentence",
+    "text": "Motoki Ohmori eats healthy food to prevent (    ).",
+    "options": [
+      "deceive",
+      "decrease",
+      "desire",
+      "disease"
+    ],
+    "answer": 3,
+    "translation": "大森元貴は病気を防ぐために健康的な食べ物を食べます。",
+    "explanation": "disease（病気）。 / その他の選択肢: decrease（減少する）、deceive（だます）、desire（欲望）。"
+  },
+  {
+    "id": 482,
+    "type": "sentence",
+    "text": "It is a (    ) for Hiroto Wakai to drink coffee every morning.",
+    "options": [
+      "castle",
+      "costume",
+      "customer",
+      "custom"
+    ],
+    "answer": 3,
+    "translation": "毎朝コーヒーを飲むのが若井滉斗の習慣です。",
+    "explanation": "custom（習慣、風習）。 / その他の選択肢: costume（衣装）、customer（客）、castle（城）。"
+  },
+  {
+    "id": 483,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa spent a large (    ) of money on new clothes.",
+    "options": [
+      "announce",
+      "account",
+      "allowance",
+      "amount"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架は新しい服に多額のお金を使いました。",
+    "explanation": "a large amount of ~（多量の〜、多額の〜）。 / その他の選択肢: account（口座・説明）、announce（発表する）、allowance（小遣い）。"
+  },
+  {
+    "id": 484,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE worked hard to (    ) the goal of making a great album.",
+    "options": [
+      "achieve",
+      "receive",
+      "deceive",
+      "believe"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは素晴らしいアルバムを作るという目標を達成するために一生懸命働きました。",
+    "explanation": "achieve（達成する）。 / その他の選択肢: believe（信じる）、receive（受け取る）、deceive（だます）。"
+  },
+  {
+    "id": 485,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they never (    )s about being too busy.",
+    "options": [
+      "complain",
+      "contain",
+      "explain",
+      "remain"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは忙しすぎることについて決して不平を言いません。",
+    "explanation": "complain about ~（〜について不平を言う）。 / その他の選択肢: explain（説明する）、remain（残る）、contain（含む）。"
+  },
+  {
+    "id": 486,
+    "type": "sentence",
+    "text": "The members of Mrs. GREEN APPLE's smile always (    )s the fans.",
+    "options": [
+      "enlarge",
+      "encourage",
+      "engage",
+      "discourage"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルのメンバーの笑顔はいつもファンを勇気づけます。",
+    "explanation": "encourage（勇気づける、励ます）。 / その他の選択肢: discourage（落胆させる）、engage（従事する）、enlarge（拡大する）。"
+  },
+  {
+    "id": 487,
+    "type": "sentence",
+    "text": "Motoki Ohmori practices every day to (    ) guitar skills.",
+    "options": [
+      "prove",
+      "approve",
+      "improve",
+      "remove"
+    ],
+    "answer": 2,
+    "translation": "大森元貴はギターのスキルを向上させるために毎日練習しています。",
+    "explanation": "improve（向上させる、改善する）。 / その他の選択肢: prove（証明する）、remove（取り除く）、approve（承認する）。"
+  },
+  {
+    "id": 488,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he (    )ed that they should go eat ramen after the rehearsal.",
+    "options": [
+      "invest",
+      "request",
+      "digest",
+      "suggest"
+    ],
+    "answer": 3,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はリハーサルの後にラーメンを食べに行くべきだと提案しました。",
+    "explanation": "suggest（提案する）。 / その他の選択肢: digest（消化する）、request（要求する）、invest（投資する）。"
+  },
+  {
+    "id": 489,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa needs to (    ) the broken strings on the guitar.",
+    "options": [
+      "relax",
+      "reduce",
+      "place",
+      "replace"
+    ],
+    "answer": 3,
+    "translation": "藤澤涼架はギターの切れた弦を交換する必要があります。",
+    "explanation": "replace（交換する、取り替える）。 / その他の選択肢: place（場所）、reduce（減らす）、relax（リラックスする）。"
+  },
+  {
+    "id": 490,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE was easily (    )d by fans while shopping at the mall.",
+    "options": [
+      "realize",
+      "recognize",
+      "organize",
+      "memorize"
+    ],
+    "answer": 1,
+    "translation": "ミセスグリーンアップルはショッピングモールで買い物中にファンにすぐ気付かれました。",
+    "explanation": "recognize（気付く、認識する）。 / その他の選択肢: organize（組織する）、realize（気付く）、memorize（暗記する）。"
+  },
+  {
+    "id": 491,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE will (    ) in a charity marathon next month.",
+    "options": [
+      "calculate",
+      "anticipate",
+      "hesitate",
+      "participate"
+    ],
+    "answer": 3,
+    "translation": "ミセスグリーンアップルは来月チャリティーマラソンに参加します。",
+    "explanation": "participate in ~（〜に参加する）。 / その他の選択肢: anticipate（予想する）、hesitate（ためらう）、calculate（計算する）。"
+  },
+  {
+    "id": 492,
+    "type": "sentence",
+    "text": "Writing a good song (    )s a lot of concentration for The members of Mrs. GREEN APPLE.",
+    "options": [
+      "retire",
+      "acquire",
+      "require",
+      "inquire"
+    ],
+    "answer": 2,
+    "translation": "良い曲を書くことはミセスグリーンアップルのメンバーにとって多くの集中力を必要とします。",
+    "explanation": "require（必要とする）。 / その他の選択肢: acquire（獲得する）、inquire（尋ねる）、retire（引退する）。"
+  },
+  {
+    "id": 493,
+    "type": "sentence",
+    "text": "Motoki Ohmori doesn't like to (    ) themselves with others.",
+    "options": [
+      "repair",
+      "compare",
+      "prepare",
+      "declare"
+    ],
+    "answer": 1,
+    "translation": "大森元貴は自分自身を他人と比較するのが好きではありません。",
+    "explanation": "compare A with B（AをBと比較する）。 / その他の選択肢: prepare（準備する）、repair（修理する）、declare（宣言する）。"
+  },
+  {
+    "id": 494,
+    "type": "conversation",
+    "text": "A: Did you hear about Hiroto Wakai?\nB: Yeah, he wants to (    ) fans with unforgettable memories.",
+    "options": [
+      "divide",
+      "decide",
+      "guide",
+      "provide"
+    ],
+    "answer": 3,
+    "translation": "A: 若井滉斗のこと聞いた？\nB: うん、彼はファンに忘れられない思い出を提供したいと思っています。",
+    "explanation": "provide A with B（AにBを提供する）。 / その他の選択肢: divide（分割する）、decide（決定する）、guide（案内する）。"
+  },
+  {
+    "id": 495,
+    "type": "sentence",
+    "text": "Ryoka Fujisawa can always (    ) on the other members when things get tough.",
+    "options": [
+      "supply",
+      "rely",
+      "apply",
+      "reply"
+    ],
+    "answer": 1,
+    "translation": "困難な時、藤澤涼架はいつも他のメンバーに頼ることができます。",
+    "explanation": "rely on ~（〜に頼る）。 / その他の選択肢: reply（返事する）、apply（適用する・申し込む）、supply（供給する）。"
+  },
+  {
+    "id": 496,
+    "type": "conversation",
+    "text": "A: Did you hear about Mrs. GREEN APPLE?\nB: Yeah, they couldn't (    ) to buy that expensive instrument years ago.",
+    "options": [
+      "afford",
+      "record",
+      "reward",
+      "effort"
+    ],
+    "answer": 0,
+    "translation": "A: ミセスグリーンアップルのこと聞いた？\nB: うん、彼らは何年も前はあの高価な楽器を買う余裕がありませんでした。",
+    "explanation": "afford to do（〜する余裕がある）。 / その他の選択肢: effort（努力）、record（記録）、reward（報酬）。"
+  },
+  {
+    "id": 497,
+    "type": "sentence",
+    "text": "Mrs. GREEN APPLE wore a warm coat to (    ) catching a cold.",
+    "options": [
+      "prevent",
+      "event",
+      "present",
+      "invent"
+    ],
+    "answer": 0,
+    "translation": "ミセスグリーンアップルは風邪をひくのを防ぐために暖かいコートを着ました。",
+    "explanation": "prevent（防ぐ、妨げる）。 / その他の選択肢: invent（発明する）、event（出来事）、present（提示する・プレゼント）。"
+  },
+  {
+    "id": 498,
+    "type": "sentence",
+    "text": "A simple meal of rice and miso soup are enough to (    ) The members of Mrs. GREEN APPLE.",
+    "options": [
+      "qualify",
+      "terrify",
+      "modify",
+      "satisfy"
+    ],
+    "answer": 3,
+    "translation": "ご飯と味噌汁のシンプルな食事でミセスグリーンアップルのメンバーを満足させるのに十分です。",
+    "explanation": "satisfy（満足させる）。 / その他の選択肢: modify（修正する）、qualify（資格を与える）、terrify（怖がらせる）。"
+  },
+  {
+    "id": 499,
+    "type": "sentence",
+    "text": "The melody of that song is very (    ) to Motoki Ohmori.",
+    "options": [
+      "familiar",
+      "similar",
+      "regular",
+      "popular"
+    ],
+    "answer": 0,
+    "translation": "その曲のメロディーは大森元貴にとってとても馴染みがあります。",
+    "explanation": "be familiar to ~（〜にとって馴染みがある）。 / その他の選択肢: similar（似ている）、popular（人気の）、regular（規則的な）。"
+  },
+  {
+    "id": 500,
+    "type": "sentence",
+    "text": "Living near the station is very (    ) for Hiroto Wakai.",
+    "options": [
+      "excellent",
+      "convenient",
+      "confident",
+      "current"
+    ],
+    "answer": 1,
+    "translation": "駅の近くに住むことは若井滉斗にとってとても便利です。",
+    "explanation": "convenient（便利な）。 / その他の選択肢: confident（自信がある）、current（現在の）、excellent（優れた）。"
   }
 ];
 
